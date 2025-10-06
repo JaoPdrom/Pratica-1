@@ -1,0 +1,35 @@
+inicio:
+  texto: "Você acorda em uma floresta misteriosa. O que deseja fazer?"
+  opcoes:
+    - texto: "Explorar a floresta"
+      proximo: floresta
+    - texto: "Seguir o som de água corrente"
+      proximo: rio
+
+floresta:
+  texto: "Você encontra uma clareira com pegadas estranhas."
+  opcoes:
+    - texto: "Seguir as pegadas"
+      proximo: caverna
+    - texto: "Ignorar e voltar"
+      proximo: inicio
+
+rio:
+  texto: "Você encontra um rio de águas cristalinas."
+  opcoes:
+    - texto: "Beber água"
+      proximo: fim
+    - texto: "Voltar para o início"
+      proximo: inicio
+
+caverna:
+  texto: "As pegadas levam até uma caverna escura."
+  opcoes:
+    - texto: "Entrar na caverna"
+      proximo: fim
+    - texto: "Fugir"
+      proximo: inicio
+
+fim:
+  texto: "Sua aventura termina aqui."
+  opcoes: []
