@@ -13,7 +13,7 @@ import os.path
 
 _location = os.path.dirname(__file__)
 
-import interface_support
+from view import interface_support
 
 _bgcolor = '#d9d9d9'
 _fgcolor = 'black'
