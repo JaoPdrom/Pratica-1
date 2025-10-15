@@ -1,6 +1,6 @@
 # JogoService.py
 import rpyc
-from Jogo import Jogo
+from model.Jogo import Jogo
 
 class JogoService(rpyc.Service):
     def __init__(self):

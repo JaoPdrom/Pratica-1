@@ -9,8 +9,9 @@ import sys
 import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
+import os.path
 
-import interface
+import view.interface as interface
 
 _debug = True # False to eliminate debug printing from callback functions.
 

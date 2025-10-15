@@ -10,10 +10,10 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
 import os.path
+import view.interface_support as interface_support
 
 _location = os.path.dirname(__file__)
 
-from view import interface_support
 
 _bgcolor = '#d9d9d9'
 _fgcolor = 'black'
