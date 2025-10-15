@@ -1,6 +1,6 @@
 # servidor.py
 from rpyc.utils.server import ThreadedServer
-from JogoService import JogoService
+from service import JogoService
 
 if __name__ == "__main__":
     server = ThreadedServer(JogoService, port=18812)
