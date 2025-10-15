@@ -1,35 +1,66 @@
-inicio:
-  texto: "Você acorda em uma floresta misteriosa. O que deseja fazer?"
-  opcoes:
-    - texto: "Explorar a floresta"
-      proximo: floresta
-    - texto: "Seguir o som de água corrente"
-      proximo: rio
+trechos:
+  - texto: >
+      Você e seu grupo acordam em uma floresta misteriosa, cercados por árvores altas
+      e uma névoa espessa. Há um som distante de água corrente e um brilho fraco vindo
+      de uma cabana próxima.
+    opcoes:
+      1: "Investigar o brilho da cabana"
+      2: "Seguir o som da água"
 
-floresta:
-  texto: "Você encontra uma clareira com pegadas estranhas."
-  opcoes:
-    - texto: "Seguir as pegadas"
-      proximo: caverna
-    - texto: "Ignorar e voltar"
-      proximo: inicio
+  - texto: >
+      Vocês se aproximam da cabana e percebem que há uma luz acesa lá dentro.
+      A porta está entreaberta, e o ar cheira a madeira queimada. Um diário aberto
+      repousa sobre a mesa.
+    opcoes:
+      1: "Ler o diário"
+      2: "Ignorar e sair da cabana"
 
-rio:
-  texto: "Você encontra um rio de águas cristalinas."
-  opcoes:
-    - texto: "Beber água"
-      proximo: fim
-    - texto: "Voltar para o início"
-      proximo: inicio
+  - texto: >
+      Seguindo o som da água, vocês encontram um rio calmo. Na margem, há uma ponte
+      velha que parece instável e uma trilha que leva floresta adentro.
+    opcoes:
+      1: "Atravessar a ponte"
+      2: "Seguir a trilha"
 
-caverna:
-  texto: "As pegadas levam até uma caverna escura."
-  opcoes:
-    - texto: "Entrar na caverna"
-      proximo: fim
-    - texto: "Fugir"
-      proximo: inicio
+  - texto: >
+      O diário revela que um explorador ficou preso nesta floresta e menciona
+      um portal escondido próximo a um rio que leva para fora daqui.
+    opcoes:
+      1: "Ir até o rio procurar o portal"
+      2: "Fechar o diário e descansar"
 
-fim:
-  texto: "Sua aventura termina aqui."
-  opcoes: []
+  - texto: >
+      Ao saírem da cabana, vocês se perdem na névoa. A floresta parece se mover
+      ao redor de vocês, como se tivesse vida própria. Um sussurro chama por seus nomes...
+    opcoes: []
+
+  - texto: >
+      Vocês atravessam a ponte, mas as tábuas rangem alto. De repente, uma se quebra,
+      e o grupo precisa correr! No outro lado, encontram uma caverna iluminada por cristais.
+    opcoes:
+      1: "Entrar na caverna"
+      2: "Voltar e seguir pela trilha"
+
+  - texto: >
+      A trilha leva até uma clareira com um círculo de pedras antigas.
+      No centro, um portal brilhante parece pulsar.
+    opcoes:
+      1: "Entrar no portal"
+      2: "Ignorar o portal e descansar na clareira"
+
+  - texto: >
+      Dentro da caverna, há inscrições nas paredes e uma estátua segurando uma esfera.
+      A luz da esfera ilumina um símbolo idêntico ao do diário.
+    opcoes:
+      1: "Tocar na esfera"
+      2: "Sair da caverna"
+
+  - texto: >
+      Vocês decidem descansar. Quando acordam, a floresta parece diferente...
+      ou talvez vocês nunca tenham realmente acordado.
+    opcoes: []
+
+  - texto: >
+      Ao atravessar o portal, uma luz intensa os envolve. Vocês despertam em casa,
+      sem saber se tudo foi um sonho — mas com o diário ainda em suas mãos.
+    opcoes: []

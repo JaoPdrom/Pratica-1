@@ -7,6 +7,8 @@ class MotorJogo:
         self.trecho_atual = None #armazena o trecho atual da historia
         self.votos = {} #dicionario para armazenar os votos dos jogadores
         self.chat = [] #lista para armazenar as mensagens do chat
+        self.jogadores_conectados = {}  #dicionario para armazenar os jogadores únicos
+        self.jogo_iniciado = False #flag para verificar se o jogo foi iniciado
 
     def carregar_historia(self, arquivo: str) -> dict: #converte o arquivo yaml em dicionario
         try:
@@ -24,6 +26,31 @@ class MotorJogo:
             print(f"Erro ao carregar o arquivo YAML: {e}")
             return {}
         
+    def adicionar_jogador(self, nome: str):        
+        # Se o jogador ainda não existe, cria seu registro
+        if nome not in self.jogadores_conectados:
+            self.jogadores_conectados[nome] = {"conectado": True, "votou": False}
+        else:
+            # Se ele já existia, apenas marca como reconectado
+            self.jogadores_conectados[nome]["conectado"] = True
+
+        total = len(self.jogadores_conectados)
+
+        # Se ainda não atingiu 4 jogadores
+        if total < 4:
+            faltam = 4 - total
+            return f"👋 {nome} entrou no jogo. Aguardando mais {faltam} jogador(es)..."
+        
+        # Se atingiu 4 jogadores e o jogo ainda não começou
+        elif total == 4 and not self.jogo_iniciado:
+            self.iniciar_jogo()
+            self.jogo_iniciado = True
+            return "🎮 Quatro jogadores conectados! O jogo começou!"
+        
+        # Caso já esteja iniciado, apenas informa entrada
+        else:
+            return f"{nome} entrou no jogo. O jogo já está em andamento!"
+
     def iniciar_jogo(self):
         if not self.historia: #verifica se a historia foi carregada corretamente
             raise RuntimeError("História não carregada corretamente.")
@@ -35,6 +62,13 @@ class MotorJogo:
         
         self.votos.clear() #limpa os votos
         self.chat.clear() #limpa o chat
+
+        for nome in self.jogadores_conectados:
+            self.jogadores_conectados[nome]["votou"] = False #marca todos os jogadores como não votaram ainda
+
+            self.jogo_iniciado = True #marca o jogo como iniciado
+
+        return f"🧭 O jogo começou! Trecho inicial: {self.trecho_atual}"
 
     def obter_trecho_atual(self, formatado=True):
         if self.trecho_atual is None: #verifica se o jogo foi iniciado
@@ -78,51 +112,122 @@ class MotorJogo:
         return texto
     
     def registrar_voto(self, jogador: str, opcao: int):
-        if self.trecho_atual is None: #verifica se o jogo foi iniciado
-            return "O jogo não foi iniciado."
+        """Registra o voto do jogador e verifica se todos já votaram."""
         
-        trecho = self.historia[self.trecho_atual] #pega o trecho atual
-        if not trecho.get("opcoes"): #verifica se há opções
-            return "Não há opções disponíveis neste trecho."
+        if not self.jogo_iniciado:
+            return "O jogo ainda não começou."
 
-        if opcao < 1 or opcao > len(trecho["opcoes"]): #verifica se a opção é válida
+        if jogador not in self.jogadores_conectados:
+            return "Jogador não está registrado no jogo."
+
+        if self.jogadores_conectados[jogador]["votou"]:
+            return "Você já votou nesta rodada."
+
+        trecho = self.historia[self.trecho_atual]
+        opcoes_disponiveis = trecho.get("opcoes", [])
+
+        # Verifica se há opções e se a escolhida é válida
+        if not opcoes_disponiveis:
+            return "Não há opções disponíveis neste trecho."
+        if opcao < 1 or opcao > len(opcoes_disponiveis):
             return "Opção inválida."
 
-        self.votos[jogador] = opcao #registra o voto
-        return f"Voto registrado: {jogador} votou na opção {opcao}." 
+        # Registra o voto e marca o jogador como já tendo votado
+        self.votos[jogador] = opcao
+        self.jogadores_conectados[jogador]["votou"] = True
+
+        total_jogadores = len(self.jogadores_conectados)
+        total_votos = len(self.votos)
+
+        # Se todos já votaram, calcula o resultado
+        if total_votos == total_jogadores:
+            resultado = self.calcular_resultados()
+            return f"{jogador} registrou seu voto.\n{resultado}"
+        else:
+            faltam = total_jogadores - total_votos
+            return f"✅ {jogador} registrou seu voto. Aguardando {faltam} voto(s)..."
+ 
     
     def calcular_resultados(self):
-        if not self.votos: #verifica se há votos registrados
-            return "Nenhum voto registrado."
+        """Conta os votos, resolve empates e avança a história."""
+        
+        if not self.jogo_iniciado:
+            return "O jogo ainda não começou!"
 
-        contagem_votos = {}
-        for voto in self.votos.values(): #conta os votos
-            contagem_votos[voto] = contagem_votos.get(voto, 0) + 1 
+        total_jogadores = len(self.jogadores_conectados)
+        total_votos = len(self.votos)
 
-        max_votos = max(contagem_votos.values()) #determina o número máximo de votos
+        if total_votos < total_jogadores:
+            faltam = total_jogadores - total_votos
+            return f"Aguardando {faltam} voto(s) restante(s) antes de calcular o resultado."
 
-        opcao_mais_votada = []
-        for opcao, votos in contagem_votos.items(): #verifica se há empate
-            if votos == max_votos:
-                opcao_mais_votada.append(opcao)
+        # --- Contagem de votos (2 opções fixas) ---
+        contagem = {1: 0, 2: 0}
+        for v in self.votos.values():
+            if v in contagem:
+                contagem[v] += 1
 
-        if len(opcao_mais_votada) > 1: #se houver empate, escolhe a primeira opção
-            self.opcoes_empate = opcao_mais_votada
-            trecho = self.historia[self.trecho_atual]
+        votos1, votos2 = contagem[1], contagem[2]
 
-            texto_empate = "Houve um empate entre as opções:\n"
-            texto_empate += "As opções mais votadas foram:\n"
-            for i in self.opcoes_empate:
-                texto_empate += f"  {i}. {trecho['opcoes'][i-1]['texto']}\n"
+        # --- Regra de empate (2x2) ---
+        if votos1 == 2 and votos2 == 2:
+            # Limpa votos e reseta estado de votação
             self.votos.clear()
-            return texto_empate
+            for nome in self.jogadores_conectados:
+                self.jogadores_conectados[nome]["votou"] = False
 
-        opcao_vencedora = opcao_mais_votada[0] #se não houver empate, pega a opção vencedora
-        trecho = self.historia[self.trecho_atual] #pega o trecho atual
-        proximo_trecho = trecho["opcoes"][opcao_vencedora - 1]["proximo"] #determina o próximo trecho
+            return (
+                "Empate detectado (2x2)! Todos devem votar novamente.\n"
+                "Escolham entre as mesmas opções."
+            )
 
-        return self.avancar_historia(proximo_trecho)
+        # --- Determina o vencedor ---
+        if votos1 > votos2:
+            proximo_trecho = self.historia[self.trecho_atual]["opcoes"][0]["proximo"]
+            vencedor = 1
+        else:
+            proximo_trecho = self.historia[self.trecho_atual]["opcoes"][1]["proximo"]
+            vencedor = 2
+
+        # --- Avança a história ---
+        resultado = f"Opção {vencedor} venceu com {max(votos1, votos2)} voto(s)!\n"
+        avancar_texto = self.avancar_historia(proximo_trecho)
+
+        # Limpa votos e reseta status dos jogadores
+        self.votos.clear()
+        for nome in self.jogadores_conectados:
+            self.jogadores_conectados[nome]["votou"] = False
+
+        return resultado + avancar_texto
+
     
+    def obter_status_votacao(self):
+        """Retorna o status atual da votação (quantos já votaram)."""
+        
+        total_jogadores = len(self.jogadores_conectados)
+        total_votos = len(self.votos)
+
+        # Caso o jogo ainda não tenha iniciado
+        if not self.jogo_iniciado:
+            if total_jogadores < 4:
+                faltam = 4 - total_jogadores
+                return f"Aguardando {faltam} jogador(es) para iniciar o jogo..."
+            else:
+                return "O jogo ainda não começou oficialmente."
+
+        # Caso ainda não tenha nenhum voto
+        if total_votos == 0:
+            return "Nenhum voto registrado ainda."
+
+        # Enquanto ainda há votos faltando
+        if total_votos < total_jogadores:
+            return f"🗳️ {total_votos} de {total_jogadores} jogadores já votaram."
+
+        # Todos já votaram
+        if total_votos == total_jogadores:
+            return "✅ Todos os jogadores já votaram! Calculando resultado..."
+
+
     def avancar_historia(self, proximo_trecho: str):
         if proximo_trecho not in self.historia:
             return "Trecho inválido."
