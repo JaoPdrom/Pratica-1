@@ -1,4 +1,7 @@
 import yaml
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 class MotorJogo:
 
@@ -10,17 +13,26 @@ class MotorJogo:
         self.jogadores_conectados = {}  #dicionario para armazenar os jogadores únicos
         self.jogo_iniciado = False #flag para verificar se o jogo foi iniciado
 
-    def carregar_historia(self, arquivo: str) -> dict: #converte o arquivo yaml em dicionario
+    def carregar_historia(self, arquivo: str) -> dict:
+        """Carrega o arquivo YAML de história a partir de model/dao/."""
         try:
-            with open(arquivo, 'r', encoding='utf-8') as arq_historia:
-                return yaml.safe_load(arq_historia) #faz a conversao do arquivo yaml para dicionario
-            
-            if not isinstance(historia, dict): #verifica se o arquivo é um dicionario
-                raise ValueError("O arquivo de história deve conter um dicionário YAML.")
-            return historia
-        
-        except FileNotFoundError:   
-            print(f"Erro: O arquivo {arquivo} não foi encontrado.")
+            caminho_absoluto = os.path.join(BASE_DIR, "dao", arquivo)
+            print(f"[DEBUG] Tentando carregar história de: {caminho_absoluto}")
+
+            if not os.path.exists(caminho_absoluto):
+                raise FileNotFoundError(f"Arquivo não encontrado: {caminho_absoluto}")
+
+            with open(caminho_absoluto, "r", encoding="utf-8") as arq_historia:
+                dados = yaml.safe_load(arq_historia)
+
+            if not isinstance(dados, dict):
+                raise ValueError("O arquivo YAML deve conter um dicionário como estrutura principal.")
+
+            print("[DEBUG] História carregada com sucesso.")
+            return dados
+
+        except FileNotFoundError as e:
+            print(f"Erro: {e}")
             return {}
         except yaml.YAMLError as e:
             print(f"Erro ao carregar o arquivo YAML: {e}")
@@ -245,13 +257,14 @@ class MotorJogo:
         return f"{jogador} disse: {mensagem}"
     
     def obter_chat(self, formatado=True):
+        """Retorna o chat formatado para exibição."""
         if not self.chat:
-            return "Nenhuma mensagem no chat"
-        
+            return "Nenhuma mensagem no chat."
+
         if formatado:
             texto = "\nChat atual:\n"
-            for msg in self.chat:
-                texto += f"  {msg}\n"
-            return texto
-        
+            for jogador, mensagem in self.chat:
+                texto += f"  {mensagem}\n"
+            return texto.strip()
+
         return self.chat

@@ -10,7 +10,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
 
-import aguardando_jogadores
+from . import aguardando_jogadores
 
 _debug = True # False to eliminate debug printing from callback functions.
 
@@ -25,8 +25,8 @@ def main(*args):
     _w1 = aguardando_jogadores.Toplevel1(_top1)
     root.mainloop()
 
-if __name__ == '__main__':
-    aguardando_jogadores.start_up()
+# if __name__ == '__main__':
+#     aguardando_jogadores.start_up()
 
 
 

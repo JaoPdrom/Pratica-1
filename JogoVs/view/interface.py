@@ -315,8 +315,8 @@ def _on_shiftmouse(event, widget):
 def start_up():
     interface_support.main()
 
-if __name__ == '__main__':
-    interface_support.main()
+# if __name__ == '__main__':
+#     interface_support.main()
 
 
 

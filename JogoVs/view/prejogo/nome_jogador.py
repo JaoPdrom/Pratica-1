@@ -13,7 +13,7 @@ import os.path
 
 _location = os.path.dirname(__file__)
 
-import nome_jogador_support
+from . import nome_jogador_support
 
 _bgcolor = '#d9d9d9'
 _fgcolor = '#000000'
@@ -88,8 +88,8 @@ class Toplevel1:
 def start_up():
     nome_jogador_support.main()
 
-if __name__ == '__main__':
-    nome_jogador_support.main()
+# if __name__ == '__main__':
+#     nome_jogador_support.main()
 
 
 

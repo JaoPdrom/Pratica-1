@@ -10,7 +10,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter.constants import *
 
-import nome_jogador
+from . import nome_jogador
 
 _debug = True # False to eliminate debug printing from callback functions.
 
