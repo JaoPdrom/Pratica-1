@@ -1091,3 +1091,279 @@
 2025-10-17 09:57:38,950 [WARNING] keyboard interrupt!
 2025-10-17 09:57:38,951 [INFO] server has terminated
 2025-10-17 09:57:38,951 [INFO] listener closed
+2025-10-17 13:45:05,225 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 13:45:16,990 [INFO] accepted ('127.0.0.1', 50268) with fd 568
+2025-10-17 13:45:16,990 [INFO] welcome ('127.0.0.1', 50268)
+2025-10-17 13:45:16,991 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn1' object at 0x00000257743F5160>
+2025-10-17 13:45:21,946 [INFO] Jogador 'pedro' entrou no jogo.
+2025-10-17 13:45:23,458 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:23,472 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:24,473 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:24,477 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:25,478 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:25,481 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:26,482 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:26,484 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:27,485 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:27,488 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:28,490 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:28,491 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:28,633 [INFO] accepted ('127.0.0.1', 6712) with fd 592
+2025-10-17 13:45:28,635 [INFO] welcome ('127.0.0.1', 6712)
+2025-10-17 13:45:28,635 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn2' object at 0x00000257744282D0>
+2025-10-17 13:45:29,493 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:29,495 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:30,497 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:30,498 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:31,499 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:31,502 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:32,504 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 13:45:32,507 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:32,946 [INFO] Jogador 'carlos' entrou no jogo.
+2025-10-17 13:45:33,510 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:33,513 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:33,936 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:33,956 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:34,514 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:34,516 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:34,958 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:34,959 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:35,518 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:35,520 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:35,960 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:35,961 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:36,522 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:36,523 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:36,963 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:36,964 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:37,525 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:37,527 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:37,680 [INFO] accepted ('127.0.0.1', 3714) with fd 560
+2025-10-17 13:45:37,680 [INFO] welcome ('127.0.0.1', 3714)
+2025-10-17 13:45:37,680 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn3' object at 0x0000025774428690>
+2025-10-17 13:45:37,966 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:37,970 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:38,529 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:38,531 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:38,972 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:38,974 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:39,533 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:39,536 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:39,975 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:39,977 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:40,538 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:40,540 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:40,979 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:40,981 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:41,543 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:41,545 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:41,983 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:41,985 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:42,546 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:42,549 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:42,988 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 13:45:42,990 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:42,994 [INFO] Jogador 'julia' entrou no jogo.
+2025-10-17 13:45:43,551 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:43,554 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:43,992 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:43,995 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:44,098 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:44,117 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:44,555 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:44,558 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:44,997 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:44,998 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:45,118 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:45,120 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:45,560 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:45,562 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:46,000 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:46,003 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:46,121 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:46,125 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:46,563 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:46,565 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:47,005 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:47,006 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:47,126 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:47,128 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:47,567 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:47,568 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:48,008 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:48,010 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:48,129 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:48,131 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:48,275 [INFO] accepted ('127.0.0.1', 25067) with fd 620
+2025-10-17 13:45:48,275 [INFO] welcome ('127.0.0.1', 25067)
+2025-10-17 13:45:48,276 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn4' object at 0x0000025773EBA3F0>
+2025-10-17 13:45:48,570 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:48,573 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:49,012 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:49,014 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:49,132 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:49,135 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:49,575 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:49,577 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:50,016 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:50,017 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:50,137 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:50,142 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:50,579 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:50,581 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:51,019 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:51,021 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:51,145 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:51,147 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:51,583 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:51,585 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:52,023 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:52,026 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:52,150 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:52,153 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:52,587 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:52,589 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:53,028 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:53,031 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:53,155 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:53,157 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:53,590 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia']
+2025-10-17 13:45:53,594 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 13:45:54,033 [INFO] Jogador 'guilherme' entrou no jogo.
+2025-10-17 13:45:54,034 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia', 'guilherme']
+2025-10-17 13:45:54,039 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 13:45:54,159 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia', 'guilherme']
+2025-10-17 13:45:54,164 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 13:45:54,298 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:54,325 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:54,342 [INFO] Opções enviadas: []
+2025-10-17 13:45:54,427 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:54,464 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:54,482 [INFO] Opções enviadas: []
+2025-10-17 13:45:54,596 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia', 'guilherme']
+2025-10-17 13:45:54,597 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 13:45:54,914 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:54,925 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:54,928 [INFO] Opções enviadas: []
+2025-10-17 13:45:55,914 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'julia', 'guilherme']
+2025-10-17 13:45:55,937 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 13:45:55,950 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:56,263 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:56,276 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:56,281 [INFO] Opções enviadas: []
+2025-10-17 13:45:57,320 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:57,329 [INFO] Opções enviadas: []
+2025-10-17 13:45:58,212 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:58,215 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:58,235 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:58,247 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:58,249 [INFO] Opções enviadas: []
+2025-10-17 13:45:58,262 [INFO] Opções enviadas: []
+2025-10-17 13:45:58,333 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:58,338 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:58,348 [INFO] Opções enviadas: []
+2025-10-17 13:45:58,443 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:58,449 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:58,453 [INFO] Opções enviadas: []
+2025-10-17 13:45:59,257 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:59,266 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:59,270 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:59,278 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:59,280 [INFO] Opções enviadas: []
+2025-10-17 13:45:59,290 [INFO] Opções enviadas: []
+2025-10-17 13:45:59,354 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:59,367 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:59,378 [INFO] Opções enviadas: []
+2025-10-17 13:45:59,457 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:45:59,473 [INFO] Chat solicitado por cliente.
+2025-10-17 13:45:59,478 [INFO] Opções enviadas: []
+2025-10-17 13:46:00,290 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:00,294 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:00,301 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:00,313 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:00,320 [INFO] Opções enviadas: []
+2025-10-17 13:46:00,331 [INFO] Opções enviadas: []
+2025-10-17 13:46:00,385 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:00,405 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:00,419 [INFO] Opções enviadas: []
+2025-10-17 13:46:00,493 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:00,504 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:00,510 [INFO] Opções enviadas: []
+2025-10-17 13:46:01,331 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:01,334 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:01,340 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:01,352 [INFO] Opções enviadas: []
+2025-10-17 13:46:01,354 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:01,365 [INFO] Opções enviadas: []
+2025-10-17 13:46:01,426 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:01,435 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:01,441 [INFO] Opções enviadas: []
+2025-10-17 13:46:01,513 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:01,521 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:01,531 [INFO] Opções enviadas: []
+2025-10-17 13:46:02,362 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:02,369 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:02,374 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:02,374 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:02,384 [INFO] Opções enviadas: []
+2025-10-17 13:46:02,385 [INFO] Opções enviadas: []
+2025-10-17 13:46:02,445 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:02,449 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:02,457 [INFO] Opções enviadas: []
+2025-10-17 13:46:02,537 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:02,545 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:02,554 [INFO] Opções enviadas: []
+2025-10-17 13:46:03,392 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:03,392 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:03,396 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:03,400 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:03,404 [INFO] Opções enviadas: []
+2025-10-17 13:46:03,405 [INFO] Opções enviadas: []
+2025-10-17 13:46:03,462 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:03,477 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:03,489 [INFO] Opções enviadas: []
+2025-10-17 13:46:03,559 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:03,573 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:03,580 [INFO] Opções enviadas: []
+2025-10-17 13:46:04,409 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:04,411 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:04,419 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:04,421 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:04,438 [INFO] Opções enviadas: []
+2025-10-17 13:46:04,440 [INFO] Opções enviadas: []
+2025-10-17 13:46:04,498 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:04,508 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:04,515 [INFO] Opções enviadas: []
+2025-10-17 13:46:04,583 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:05,444 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:05,446 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:05,451 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:05,458 [INFO] Opções enviadas: []
+2025-10-17 13:46:05,518 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:05,523 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:05,527 [INFO] Opções enviadas: []
+2025-10-17 13:46:05,593 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:06,454 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:06,460 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:06,529 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:06,534 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:06,538 [INFO] Opções enviadas: []
+2025-10-17 13:46:06,595 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:06,733 [INFO] Jogador 'julia' se desconectou.
+2025-10-17 13:46:06,735 [INFO] goodbye ('127.0.0.1', 3714)
+2025-10-17 13:46:07,471 [INFO] Jogador 'carlos' se desconectou.
+2025-10-17 13:46:07,472 [INFO] goodbye ('127.0.0.1', 6712)
+2025-10-17 13:46:07,541 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:07,550 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:07,560 [INFO] Opções enviadas: []
+2025-10-17 13:46:07,597 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:08,134 [INFO] Jogador 'guilherme' se desconectou.
+2025-10-17 13:46:08,134 [INFO] goodbye ('127.0.0.1', 25067)
+2025-10-17 13:46:08,565 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 13:46:08,574 [INFO] Chat solicitado por cliente.
+2025-10-17 13:46:08,580 [INFO] Opções enviadas: []
+2025-10-17 13:46:09,541 [INFO] Jogador 'pedro' se desconectou.
+2025-10-17 13:46:09,541 [INFO] goodbye ('127.0.0.1', 50268)
+2025-10-17 13:46:12,822 [WARNING] keyboard interrupt!
+2025-10-17 13:46:12,822 [INFO] server has terminated
+2025-10-17 13:46:12,823 [INFO] listener closed
