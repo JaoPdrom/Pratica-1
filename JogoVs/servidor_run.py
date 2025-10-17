@@ -2,15 +2,23 @@
 
 import sys
 import os
+import socket
+from rpyc.utils.server import ThreadedServer
+from service.JogoService import JogoService # Importação corrigida
 
 # Adiciona o diretório raiz ao path para garantir que 'service' seja encontrado
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from rpyc.utils.server import ThreadedServer
-from service.JogoService import JogoService # Importação corrigida
+hostname = socket.gethostname()
+endereco_ip = socket.gethostbyname(hostname)
+porta = 18812
 
 print("Iniciando Servidor RPyC...")
-# Cria uma instância do servidor
-t = ThreadedServer(JogoService, port=18812)
-# Roda o servidor
+print(f"Endereço: {endereco_ip}")
+print(f"Porta {porta} ")
+
+#instancia o servidor
+t = ThreadedServer(JogoService, port=porta)
+
+#inicia o servidor
 t.start()

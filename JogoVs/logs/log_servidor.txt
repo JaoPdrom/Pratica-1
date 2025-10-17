@@ -1,0 +1,1093 @@
+2025-10-16 13:34:05,624 [INFO] server started on [0.0.0.0]:18812
+2025-10-16 13:34:21,345 [WARNING] keyboard interrupt!
+2025-10-16 13:34:21,346 [INFO] server has terminated
+2025-10-16 13:34:21,346 [INFO] listener closed
+2025-10-17 09:48:40,542 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 09:49:16,813 [INFO] accepted ('127.0.0.1', 18253) with fd 572
+2025-10-17 09:49:16,814 [INFO] welcome ('127.0.0.1', 18253)
+2025-10-17 09:49:16,814 [INFO] Novo cliente conectado.
+2025-10-17 09:51:00,086 [INFO] Cliente desconectado (não identificado).
+2025-10-17 09:51:00,087 [INFO] goodbye ('127.0.0.1', 18253)
+2025-10-17 09:51:08,233 [WARNING] keyboard interrupt!
+2025-10-17 09:51:08,233 [INFO] server has terminated
+2025-10-17 09:51:08,234 [INFO] listener closed
+2025-10-17 09:53:24,771 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 09:53:32,570 [INFO] accepted ('127.0.0.1', 28237) with fd 576
+2025-10-17 09:53:32,571 [INFO] welcome ('127.0.0.1', 28237)
+2025-10-17 09:53:32,572 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn1' object at 0x000002BE30B39010>
+2025-10-17 09:53:38,196 [INFO] Jogador 'pedro' entrou no jogo.
+2025-10-17 09:53:39,811 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:39,829 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:40,831 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:40,834 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:41,836 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:41,837 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:42,839 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:42,841 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:43,843 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:43,853 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:44,854 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:44,856 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:45,858 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:45,860 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:46,862 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:46,863 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:47,865 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:47,866 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:48,868 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:48,870 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:48,951 [INFO] accepted ('127.0.0.1', 28247) with fd 592
+2025-10-17 09:53:48,952 [INFO] welcome ('127.0.0.1', 28247)
+2025-10-17 09:53:48,952 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn2' object at 0x000002BE30B6C2D0>
+2025-10-17 09:53:49,873 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:49,875 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:50,878 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:50,879 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:51,880 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:51,883 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:52,885 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:52,886 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:53,887 [INFO] Lista de jogadores conectados: ['pedro']
+2025-10-17 09:53:53,888 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:53,900 [INFO] Jogador 'carlos' entrou no jogo.
+2025-10-17 09:53:54,889 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:54,890 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:55,503 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:55,522 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:55,892 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:55,894 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:56,524 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:56,525 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:56,895 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:56,897 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:57,527 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:57,528 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:57,899 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:57,902 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:58,530 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:58,531 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:58,904 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:58,908 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:59,533 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:59,534 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:53:59,909 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:53:59,911 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:00,537 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:00,539 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:00,913 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:00,915 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:01,541 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:01,542 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:01,917 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:01,920 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:02,335 [INFO] accepted ('127.0.0.1', 28266) with fd 612
+2025-10-17 09:54:02,335 [INFO] welcome ('127.0.0.1', 28266)
+2025-10-17 09:54:02,336 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn3' object at 0x000002BE30B6C690>
+2025-10-17 09:54:02,544 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:02,547 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:02,922 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:02,924 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:03,548 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:03,550 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:03,927 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:03,930 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:04,552 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:04,554 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:04,932 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:04,935 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:05,556 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:05,559 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:05,937 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:05,941 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:06,561 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:06,564 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:06,943 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:06,945 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:07,566 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:07,569 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:07,946 [INFO] Lista de jogadores conectados: ['pedro', 'carlos']
+2025-10-17 09:54:07,950 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:08,212 [INFO] Jogador 'guilherme' entrou no jogo.
+2025-10-17 09:54:08,571 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:08,573 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:08,952 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:08,955 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:09,575 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:09,577 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:09,663 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:09,682 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:09,957 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:09,959 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:10,579 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:10,580 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:10,685 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:10,688 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:10,960 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:10,962 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:11,581 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:11,583 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:11,690 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:11,693 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:11,964 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:11,965 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:12,585 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:12,587 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:12,694 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:12,695 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:12,967 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:12,968 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:13,589 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:13,591 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:13,697 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:13,700 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:13,970 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:13,972 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:14,593 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:14,594 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:14,702 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:14,705 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:14,974 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:14,976 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:15,014 [INFO] accepted ('127.0.0.1', 28273) with fd 620
+2025-10-17 09:54:15,015 [INFO] welcome ('127.0.0.1', 28273)
+2025-10-17 09:54:15,015 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn4' object at 0x000002BE3069A3F0>
+2025-10-17 09:54:15,596 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:15,599 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:15,707 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:15,708 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:15,978 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:15,981 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:16,600 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:16,602 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:16,710 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:16,713 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:16,984 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:16,986 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:17,604 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:17,607 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:17,715 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:17,717 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:17,988 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:17,990 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:18,609 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:18,610 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:18,719 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:18,721 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:18,993 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:18,994 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:19,611 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:19,614 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:19,724 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme']
+2025-10-17 09:54:19,725 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 09:54:19,756 [INFO] Jogador 'luis' entrou no jogo.
+2025-10-17 09:54:19,996 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme', 'luis']
+2025-10-17 09:54:20,011 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 09:54:20,270 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:20,286 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:20,292 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:20,616 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme', 'luis']
+2025-10-17 09:54:20,618 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 09:54:20,727 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme', 'luis']
+2025-10-17 09:54:20,728 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 09:54:20,859 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:20,869 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:20,877 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:21,022 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:21,053 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:21,381 [INFO] Lista de jogadores conectados: ['pedro', 'carlos', 'guilherme', 'luis']
+2025-10-17 09:54:21,399 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 09:54:21,631 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:21,640 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:21,646 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:22,739 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:23,178 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:23,183 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:23,189 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:23,743 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:23,754 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:23,756 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:23,759 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:23,760 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:23,764 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:23,780 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:23,783 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:23,807 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:24,192 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:24,199 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:24,205 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:24,800 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:24,804 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:24,809 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:24,811 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:24,812 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:24,814 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:24,815 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:24,819 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:24,819 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:25,210 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:25,216 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:25,222 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:25,833 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:25,834 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:25,834 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:25,838 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:25,838 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:25,844 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:25,847 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:25,847 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:25,860 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:26,225 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:26,230 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:26,231 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:26,869 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:26,870 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:26,871 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:26,873 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:26,874 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:26,874 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:26,875 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:26,879 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:26,885 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:27,236 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:27,240 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:27,245 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:27,887 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:27,890 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:27,892 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:27,893 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:27,894 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:27,902 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:27,915 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:27,920 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:27,925 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:28,247 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:28,254 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:28,258 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:28,923 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:28,928 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:28,930 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:28,930 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:28,932 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:28,933 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:28,933 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:28,938 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:28,958 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:29,267 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:29,269 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:29,274 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:29,947 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:29,949 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:29,954 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:29,956 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:29,958 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:29,962 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:29,962 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:29,969 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:29,974 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:30,283 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:30,289 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:30,296 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:30,958 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:30,962 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:30,965 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:30,976 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:30,978 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:30,979 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:30,981 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:30,987 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:30,997 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:31,299 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:31,301 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:31,305 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:31,982 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:31,985 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:31,990 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:31,994 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:31,999 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:32,000 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:32,004 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:32,008 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:32,011 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:32,312 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:32,319 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:32,322 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:32,995 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:33,001 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:33,008 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:33,016 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:33,017 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:33,018 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:33,024 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:33,025 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:33,032 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:33,325 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:33,330 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:33,332 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:34,013 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:34,019 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:34,024 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:34,033 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:34,036 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:34,038 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:34,039 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:34,046 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:34,048 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:34,336 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:34,340 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:34,341 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:35,029 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:35,035 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:35,039 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:35,042 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:35,046 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:35,049 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:35,051 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:35,057 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:35,059 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:35,346 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:35,348 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:35,349 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:36,044 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:36,049 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:36,052 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:36,054 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:36,056 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:36,063 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:36,064 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:36,073 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:36,078 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:36,354 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:36,360 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:36,362 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:37,072 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:37,075 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:37,080 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:37,081 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:37,081 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:37,083 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:37,088 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:37,092 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:37,100 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:37,369 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:37,375 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:37,380 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:38,089 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:38,093 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:38,096 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:38,100 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:38,103 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:38,103 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:38,104 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:38,108 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:38,112 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:38,385 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:38,387 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:38,394 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:39,100 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:39,103 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:39,109 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:39,114 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:39,114 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:39,119 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:39,125 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:39,129 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:39,134 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:39,397 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:39,430 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:39,436 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:40,113 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:40,120 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:40,125 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:40,136 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:40,140 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:40,142 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:40,145 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:40,147 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:40,150 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:40,440 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:40,446 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:40,450 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:41,128 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:41,135 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:41,138 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:41,159 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:41,161 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:41,166 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:41,169 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:41,172 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:41,175 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:41,456 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:41,461 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:41,471 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:42,143 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:42,153 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:42,158 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:42,179 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:42,181 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:42,190 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:42,201 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:42,221 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:42,221 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:42,475 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:42,479 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:42,483 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:43,162 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:43,166 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:43,169 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:43,246 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:43,251 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:43,255 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:43,256 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:43,260 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:43,264 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:43,488 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:43,494 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:43,495 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:43,565 [INFO] Mensagem de 'pedro': teste
+2025-10-17 09:54:44,174 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:44,182 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:44,187 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:44,268 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:44,269 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:44,278 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:44,280 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:44,283 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:44,284 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:44,500 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:44,513 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:44,517 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:45,191 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:45,196 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:45,200 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:45,292 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:45,293 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:45,297 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:45,302 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:45,304 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:45,311 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:45,522 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:45,528 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:45,531 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:46,205 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:46,211 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:46,218 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:46,312 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:46,315 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:46,320 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:46,323 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:46,328 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:46,331 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:46,535 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:46,545 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:46,548 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:47,221 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:47,225 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:47,230 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:47,335 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:47,336 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:47,340 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:47,344 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:47,348 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:47,352 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:47,552 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:47,557 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:47,565 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:48,232 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:48,238 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:48,242 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:48,352 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:48,357 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:48,359 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:48,360 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:48,369 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:48,377 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:48,568 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:48,577 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:48,582 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:48,693 [INFO] Jogador 'guilherme' votou na opção 1.
+2025-10-17 09:54:48,693 [INFO] Resultado parcial da votação: {'guilherme': 1}
+2025-10-17 09:54:49,246 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:49,254 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:49,266 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:49,364 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:49,369 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:49,374 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:49,381 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:49,387 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:49,394 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:49,584 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:49,588 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:49,593 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:50,273 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:50,279 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:50,285 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:50,377 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:50,382 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:50,383 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:50,399 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:50,404 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:50,409 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:50,598 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:50,608 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:50,618 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:51,291 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:51,301 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:51,304 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:51,389 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:51,398 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:51,404 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:51,413 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:51,417 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:51,422 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:51,625 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:51,639 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:51,646 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:52,308 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:52,315 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:52,328 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:52,408 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:52,415 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:52,425 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:52,428 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:52,428 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:52,435 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:52,655 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:52,663 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:52,667 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:52,910 [INFO] Jogador 'carlos' votou na opção 1.
+2025-10-17 09:54:52,910 [INFO] Resultado parcial da votação: {'guilherme': 1, 'carlos': 1}
+2025-10-17 09:54:53,336 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:53,344 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:53,347 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:53,438 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:53,441 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:53,445 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:53,451 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:53,452 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:53,459 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:53,672 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:53,682 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:53,688 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:54,351 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:54,356 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:54,368 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:54,458 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:54,462 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:54,464 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:54,466 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:54,472 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:54,473 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:54,691 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:54,694 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:54,696 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:55,253 [INFO] Jogador 'pedro' votou na opção 1.
+2025-10-17 09:54:55,253 [INFO] Resultado parcial da votação: {'guilherme': 1, 'carlos': 1, 'pedro': 1}
+2025-10-17 09:54:55,377 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:55,385 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:55,404 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:55,480 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:55,483 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:55,488 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:55,495 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:55,516 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:55,527 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:55,699 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:55,704 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:55,709 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:56,417 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:56,419 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:56,425 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:56,534 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:56,535 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:56,536 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:56,544 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:56,551 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:56,553 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:56,712 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:56,717 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:56,721 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:57,429 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:57,433 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:57,440 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:57,562 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:57,565 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:57,566 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:57,567 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:57,571 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:57,575 [INFO] Opções enviadas: ['Investigar o brilho da cabana', 'seguir o som da água']
+2025-10-17 09:54:57,645 [INFO] Jogador 'luis' votou na opção 2.
+2025-10-17 09:54:57,645 [INFO] Resultado parcial da votação: {}
+2025-10-17 09:54:57,724 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:57,729 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:57,740 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:58,446 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:58,455 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:58,463 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:58,577 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:58,578 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:58,591 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:58,591 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:58,613 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:58,613 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:58,745 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:58,749 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:58,751 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:59,467 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:59,473 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:59,476 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:59,618 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:59,619 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:59,623 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:59,624 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:59,626 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:59,632 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:54:59,755 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:54:59,763 [INFO] Chat solicitado por cliente.
+2025-10-17 09:54:59,768 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:00,481 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:00,485 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:00,492 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:00,637 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:00,638 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:00,646 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:00,648 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:00,654 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:00,657 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:00,772 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:00,775 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:00,778 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:01,497 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:01,502 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:01,506 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:01,662 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:01,662 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:01,672 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:01,675 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:01,679 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:01,685 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:01,782 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:01,793 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:01,798 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:02,510 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:02,520 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:02,524 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:02,688 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:02,689 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:02,692 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:02,692 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:02,700 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:02,711 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:02,801 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:02,805 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:02,808 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:03,528 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:03,535 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:03,543 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:03,715 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:03,716 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:03,717 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:03,719 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:03,724 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:03,725 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:03,812 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:03,822 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:03,825 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:04,547 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:04,552 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:04,557 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:04,729 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:04,730 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:04,730 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:04,733 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:04,735 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:04,740 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:04,829 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:04,840 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:04,845 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:05,285 [INFO] Jogador 'guilherme' votou na opção 2.
+2025-10-17 09:55:05,285 [INFO] Resultado parcial da votação: {'guilherme': 2}
+2025-10-17 09:55:05,561 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:05,572 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:05,579 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:05,739 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:05,743 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:05,744 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:05,754 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:05,758 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:05,766 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:05,850 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:05,855 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:05,868 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:06,582 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:06,592 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:06,609 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:06,761 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:06,766 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:06,769 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:06,779 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:06,785 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:06,791 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:06,882 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:06,889 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:06,894 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:07,172 [INFO] Jogador 'pedro' votou na opção 2.
+2025-10-17 09:55:07,172 [INFO] Resultado parcial da votação: {'guilherme': 2, 'pedro': 2}
+2025-10-17 09:55:07,615 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:07,617 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:07,622 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:07,790 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:07,794 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:07,794 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:07,797 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:07,802 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:07,805 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:07,901 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:07,907 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:07,912 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:08,624 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:08,630 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:08,636 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:08,801 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:08,804 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:08,807 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:08,808 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:08,812 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:08,815 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:08,916 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:08,921 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:08,922 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:09,639 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:09,645 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:09,649 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:09,811 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:09,819 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:09,821 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:09,824 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:09,834 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:09,840 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:09,929 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:09,951 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:09,965 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:10,094 [INFO] Jogador 'carlos' votou na opção 1.
+2025-10-17 09:55:10,094 [INFO] Resultado parcial da votação: {'guilherme': 2, 'pedro': 2, 'carlos': 1}
+2025-10-17 09:55:10,652 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:10,654 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:10,656 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:10,851 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:10,862 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:10,869 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:10,872 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:10,875 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:10,876 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:10,971 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:10,979 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:10,984 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:11,660 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:11,665 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:11,666 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:11,880 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:11,885 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:11,885 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:11,890 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:11,898 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:11,906 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:11,991 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:12,006 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:12,017 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:12,101 [INFO] Jogador 'luis' votou na opção 1.
+2025-10-17 09:55:12,101 [INFO] Resultado parcial da votação: {}
+2025-10-17 09:55:12,672 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:12,680 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:12,684 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:12,905 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:12,910 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:12,913 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:12,914 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:12,916 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:12,920 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:13,021 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:13,026 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:13,030 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:13,688 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:13,695 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:13,700 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:13,919 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:13,924 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:13,926 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:13,926 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:13,930 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:13,931 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:14,035 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:14,049 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:14,056 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:14,703 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:14,712 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:14,717 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:14,940 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:14,941 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:14,942 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:14,951 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:14,951 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:14,961 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:15,062 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:15,069 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:15,073 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:15,721 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:15,725 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:15,730 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:15,960 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:15,965 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:15,965 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:15,967 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:15,973 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:15,979 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:16,077 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:16,084 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:16,090 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:16,734 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:16,738 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:16,743 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:16,985 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:16,986 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:16,988 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:16,988 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:16,996 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:16,998 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:17,096 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:17,155 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:17,165 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:17,748 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:17,757 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:17,771 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:18,002 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:18,003 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:18,010 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:18,012 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:18,019 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:18,022 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:18,093 [INFO] Jogador 'guilherme' votou na opção 2.
+2025-10-17 09:55:18,094 [INFO] Resultado parcial da votação: {'guilherme': 2}
+2025-10-17 09:55:18,174 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:18,185 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:18,192 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:18,780 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:18,785 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:18,790 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:19,028 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:19,028 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:19,032 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:19,038 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:19,047 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:19,051 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:19,202 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:19,211 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:19,219 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:19,794 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:19,801 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:19,806 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:20,054 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:20,055 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:20,059 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:20,060 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:20,077 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:20,079 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:20,225 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:20,238 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:20,241 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:20,309 [INFO] Jogador 'pedro' votou na opção 2.
+2025-10-17 09:55:20,309 [INFO] Resultado parcial da votação: {'guilherme': 2, 'pedro': 2}
+2025-10-17 09:55:20,810 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:20,823 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:20,832 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:21,084 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:21,087 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:21,100 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:21,117 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:21,121 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:21,137 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:21,272 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:21,280 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:21,294 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:21,836 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:21,841 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:21,848 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:22,152 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:22,153 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:22,161 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:22,164 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:22,180 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:22,182 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:22,305 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:22,309 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:22,314 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:22,669 [INFO] Jogador 'carlos' votou na opção 2.
+2025-10-17 09:55:22,670 [INFO] Resultado parcial da votação: {'guilherme': 2, 'pedro': 2, 'carlos': 2}
+2025-10-17 09:55:22,851 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:22,853 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:22,856 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:23,188 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:23,191 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:23,200 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:23,200 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:23,207 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:23,213 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:23,320 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:23,327 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:23,340 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:23,859 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:23,864 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:23,869 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:24,217 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:24,219 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:24,227 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:24,231 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:24,244 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:24,256 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:24,347 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:24,361 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:24,367 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:24,873 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:24,883 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:24,884 [INFO] Opções enviadas: ['Ler o diário', 'Ignorar e sair da cabana']
+2025-10-17 09:55:25,229 [INFO] Jogador 'luis' votou na opção 2.
+2025-10-17 09:55:25,230 [INFO] Resultado parcial da votação: {}
+2025-10-17 09:55:25,265 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:25,266 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:25,268 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:25,285 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:25,285 [INFO] Opções enviadas: []
+2025-10-17 09:55:25,313 [INFO] Opções enviadas: []
+2025-10-17 09:55:25,378 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:25,386 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:25,391 [INFO] Opções enviadas: []
+2025-10-17 09:55:25,889 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:25,901 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:25,905 [INFO] Opções enviadas: []
+2025-10-17 09:55:26,318 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:26,323 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:26,329 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:26,331 [INFO] Opções enviadas: []
+2025-10-17 09:55:26,346 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:26,354 [INFO] Opções enviadas: []
+2025-10-17 09:55:26,403 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:26,418 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:26,431 [INFO] Opções enviadas: []
+2025-10-17 09:55:26,909 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:26,912 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:26,916 [INFO] Opções enviadas: []
+2025-10-17 09:55:27,343 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:27,345 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:27,348 [INFO] Opções enviadas: []
+2025-10-17 09:55:27,357 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:27,360 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:27,363 [INFO] Opções enviadas: []
+2025-10-17 09:55:27,455 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:27,471 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:27,488 [INFO] Opções enviadas: []
+2025-10-17 09:55:27,919 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:27,928 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:27,931 [INFO] Opções enviadas: []
+2025-10-17 09:55:28,351 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:28,364 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:28,366 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:28,379 [INFO] Opções enviadas: []
+2025-10-17 09:55:28,388 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:28,391 [INFO] Opções enviadas: []
+2025-10-17 09:55:28,497 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:28,506 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:28,510 [INFO] Opções enviadas: []
+2025-10-17 09:55:28,935 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:28,947 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:28,954 [INFO] Opções enviadas: []
+2025-10-17 09:55:29,390 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:29,394 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:29,395 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:29,399 [INFO] Opções enviadas: []
+2025-10-17 09:55:29,399 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:29,406 [INFO] Opções enviadas: []
+2025-10-17 09:55:29,519 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:29,524 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:29,528 [INFO] Opções enviadas: []
+2025-10-17 09:55:29,958 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:29,965 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:29,969 [INFO] Opções enviadas: []
+2025-10-17 09:55:30,405 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:30,409 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:30,417 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:30,421 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:30,424 [INFO] Opções enviadas: []
+2025-10-17 09:55:30,427 [INFO] Opções enviadas: []
+2025-10-17 09:55:30,532 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:30,540 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:30,546 [INFO] Opções enviadas: []
+2025-10-17 09:55:30,973 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:31,431 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:31,432 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:31,435 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:31,441 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:31,443 [INFO] Opções enviadas: []
+2025-10-17 09:55:31,449 [INFO] Opções enviadas: []
+2025-10-17 09:55:31,552 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:31,556 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:31,559 [INFO] Opções enviadas: []
+2025-10-17 09:55:32,096 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:32,452 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:32,454 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:32,456 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:32,459 [INFO] Opções enviadas: []
+2025-10-17 09:55:32,562 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:32,566 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:32,573 [INFO] Opções enviadas: []
+2025-10-17 09:55:33,099 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:33,460 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:33,464 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:33,476 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:33,483 [INFO] Opções enviadas: []
+2025-10-17 09:55:33,581 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:33,593 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:33,598 [INFO] Opções enviadas: []
+2025-10-17 09:55:34,102 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:34,463 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:34,492 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:34,499 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:34,504 [INFO] Opções enviadas: []
+2025-10-17 09:55:34,616 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:34,620 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:34,623 [INFO] Opções enviadas: []
+2025-10-17 09:55:35,104 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:35,468 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:35,508 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:35,513 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:35,515 [INFO] Opções enviadas: []
+2025-10-17 09:55:35,627 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:35,630 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:35,641 [INFO] Opções enviadas: []
+2025-10-17 09:55:36,106 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:36,471 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:36,520 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:36,527 [INFO] Chat solicitado por cliente.
+2025-10-17 09:55:36,530 [INFO] Opções enviadas: []
+2025-10-17 09:55:36,647 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:37,108 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:37,473 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:37,533 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:37,656 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:38,111 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:38,476 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:38,539 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:38,610 [INFO] Jogador 'luis' se desconectou.
+2025-10-17 09:55:38,611 [INFO] goodbye ('127.0.0.1', 28273)
+2025-10-17 09:55:38,660 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:39,171 [INFO] Jogador 'guilherme' se desconectou.
+2025-10-17 09:55:39,171 [INFO] goodbye ('127.0.0.1', 28266)
+2025-10-17 09:55:39,479 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:39,624 [INFO] Jogador 'pedro' se desconectou.
+2025-10-17 09:55:39,625 [INFO] goodbye ('127.0.0.1', 28237)
+2025-10-17 09:55:40,483 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:41,486 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:42,488 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 09:55:42,513 [INFO] Jogador 'carlos' se desconectou.
+2025-10-17 09:55:42,513 [INFO] goodbye ('127.0.0.1', 28247)
+2025-10-17 09:57:38,950 [WARNING] keyboard interrupt!
+2025-10-17 09:57:38,951 [INFO] server has terminated
+2025-10-17 09:57:38,951 [INFO] listener closed
