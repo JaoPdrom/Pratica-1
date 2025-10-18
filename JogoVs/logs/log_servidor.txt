@@ -5208,3 +5208,493 @@
 2025-10-17 22:01:52,780 [WARNING] keyboard interrupt!
 2025-10-17 22:01:52,780 [INFO] server has terminated
 2025-10-17 22:01:52,780 [INFO] listener closed
+2025-10-17 22:09:09,223 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 22:11:16,038 [INFO] accepted ('127.0.0.1', 62708) with fd 488
+2025-10-17 22:11:16,039 [INFO] welcome ('127.0.0.1', 62708)
+2025-10-17 22:11:16,039 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn1' object at 0x000002DD89219010>
+2025-10-17 22:11:30,046 [INFO] Jogador 'teste1' entrou no jogo.
+2025-10-17 22:11:31,576 [INFO] Lista de jogadores conectados: ['teste1']
+2025-10-17 22:11:31,601 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:11:32,603 [INFO] Lista de jogadores conectados: ['teste1']
+2025-10-17 22:11:32,604 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:11:33,606 [INFO] Lista de jogadores conectados: ['teste1']
+2025-10-17 22:11:34,490 [INFO] Jogador 'teste1' se desconectou.
+2025-10-17 22:11:34,490 [INFO] goodbye ('127.0.0.1', 62708)
+2025-10-17 22:11:40,103 [WARNING] keyboard interrupt!
+2025-10-17 22:11:40,103 [INFO] server has terminated
+2025-10-17 22:11:40,103 [INFO] listener closed
+2025-10-17 22:13:27,181 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 22:13:32,473 [INFO] accepted ('127.0.0.1', 20894) with fd 584
+2025-10-17 22:13:32,474 [INFO] welcome ('127.0.0.1', 20894)
+2025-10-17 22:13:32,474 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn1' object at 0x000002259A439010>
+2025-10-17 22:13:52,731 [INFO] Cliente desconectado (não identificado).
+2025-10-17 22:13:52,731 [INFO] goodbye ('127.0.0.1', 20894)
+2025-10-17 22:14:15,910 [INFO] accepted ('127.0.0.1', 33103) with fd 596
+2025-10-17 22:14:15,910 [INFO] welcome ('127.0.0.1', 33103)
+2025-10-17 22:14:15,911 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn2' object at 0x000002259A4642D0>
+2025-10-17 22:14:32,173 [INFO] Cliente desconectado (não identificado).
+2025-10-17 22:14:32,173 [INFO] goodbye ('127.0.0.1', 33103)
+2025-10-17 22:16:39,222 [WARNING] keyboard interrupt!
+2025-10-17 22:16:39,222 [INFO] server has terminated
+2025-10-17 22:16:39,222 [INFO] listener closed
+2025-10-17 22:19:02,442 [INFO] server started on [0.0.0.0]:18812
+2025-10-17 22:19:07,207 [INFO] accepted ('127.0.0.1', 8314) with fd 588
+2025-10-17 22:19:07,207 [INFO] welcome ('127.0.0.1', 8314)
+2025-10-17 22:19:07,208 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn1' object at 0x000002ACAB839010>
+2025-10-17 22:19:10,667 [INFO] Jogador 'teste' entrou no jogo.
+2025-10-17 22:19:11,741 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:11,772 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:12,774 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:12,777 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:13,779 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:13,780 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:14,418 [INFO] accepted ('127.0.0.1', 49674) with fd 528
+2025-10-17 22:19:14,419 [INFO] welcome ('127.0.0.1', 49674)
+2025-10-17 22:19:14,419 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn2' object at 0x000002ACAB8642D0>
+2025-10-17 22:19:14,781 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:14,783 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:15,785 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:15,786 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:16,787 [INFO] Lista de jogadores conectados: ['teste']
+2025-10-17 22:19:16,789 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:17,139 [INFO] Jogador 'teste2' entrou no jogo.
+2025-10-17 22:19:17,790 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:17,792 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:18,161 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:18,180 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:18,794 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:18,795 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:19,181 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:19,182 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:19,797 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:19,798 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:20,184 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:20,185 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:20,800 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:20,802 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:21,186 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:21,187 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:21,803 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:21,804 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:22,189 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:22,191 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:22,408 [INFO] accepted ('127.0.0.1', 19321) with fd 612
+2025-10-17 22:19:22,409 [INFO] welcome ('127.0.0.1', 19321)
+2025-10-17 22:19:22,409 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn3' object at 0x000002ACAB864690>
+2025-10-17 22:19:22,806 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:22,807 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:23,192 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:23,193 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:23,808 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:23,810 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:24,195 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:24,197 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:24,812 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:24,814 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:25,199 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:25,200 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:25,815 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:25,816 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:26,202 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:26,205 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:26,817 [INFO] Lista de jogadores conectados: ['teste', 'teste2']
+2025-10-17 22:19:26,819 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:27,139 [INFO] Jogador 'teste3' entrou no jogo.
+2025-10-17 22:19:27,208 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:27,211 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:27,820 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:27,822 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:28,213 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:28,219 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:28,255 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:28,278 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:28,823 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:28,826 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:29,221 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:29,223 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:29,280 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:29,282 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:29,827 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:29,830 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:30,226 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:30,228 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:30,284 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:30,286 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:30,831 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:30,832 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:31,229 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:31,231 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:31,288 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:31,289 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:31,834 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:31,835 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:32,045 [INFO] accepted ('127.0.0.1', 57596) with fd 628
+2025-10-17 22:19:32,045 [INFO] welcome ('127.0.0.1', 57596)
+2025-10-17 22:19:32,045 [INFO] Novo cliente conectado: <rpyc.core.protocol.Connection 'conn4' object at 0x000002ACAB39A520>
+2025-10-17 22:19:32,232 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:32,233 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:32,291 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:32,292 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:32,836 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:32,838 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:33,235 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:33,236 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:33,293 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:33,294 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:33,840 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:33,843 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:34,237 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:34,240 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:34,296 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:34,297 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:34,844 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3']
+2025-10-17 22:19:34,845 [INFO] Estado do jogo solicitado: Aguardando jogadores.
+2025-10-17 22:19:34,978 [INFO] Jogador 'teste4' entrou no jogo.
+2025-10-17 22:19:35,242 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3', 'teste4']
+2025-10-17 22:19:35,245 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 22:19:35,299 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3', 'teste4']
+2025-10-17 22:19:35,302 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 22:19:35,477 [INFO] Opções enviadas: []
+2025-10-17 22:19:35,545 [INFO] Opções enviadas: []
+2025-10-17 22:19:35,846 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3', 'teste4']
+2025-10-17 22:19:35,847 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 22:19:36,167 [INFO] Opções enviadas: []
+2025-10-17 22:19:36,407 [INFO] Lista de jogadores conectados: ['teste', 'teste2', 'teste3', 'teste4']
+2025-10-17 22:19:36,422 [INFO] Estado do jogo solicitado: Iniciado.
+2025-10-17 22:19:36,672 [INFO] Opções enviadas: []
+2025-10-17 22:19:37,320 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:37,320 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:37,335 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:37,336 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:37,341 [INFO] Opções enviadas: []
+2025-10-17 22:19:37,342 [INFO] Opções enviadas: []
+2025-10-17 22:19:37,782 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:37,784 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:37,785 [INFO] Opções enviadas: []
+2025-10-17 22:19:37,787 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:37,790 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:37,793 [INFO] Opções enviadas: []
+2025-10-17 22:19:38,359 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:38,359 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:38,360 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:38,361 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:38,362 [INFO] Opções enviadas: []
+2025-10-17 22:19:38,362 [INFO] Opções enviadas: []
+2025-10-17 22:19:38,793 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:38,794 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:38,795 [INFO] Opções enviadas: []
+2025-10-17 22:19:38,803 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:38,805 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:38,805 [INFO] Opções enviadas: []
+2025-10-17 22:19:39,367 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:39,367 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:39,368 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:39,369 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:39,369 [INFO] Opções enviadas: []
+2025-10-17 22:19:39,370 [INFO] Opções enviadas: []
+2025-10-17 22:19:39,802 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:39,805 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:39,807 [INFO] Opções enviadas: []
+2025-10-17 22:19:39,817 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:39,822 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:39,825 [INFO] Opções enviadas: []
+2025-10-17 22:19:40,377 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:40,377 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:40,378 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:40,378 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:40,379 [INFO] Opções enviadas: []
+2025-10-17 22:19:40,380 [INFO] Opções enviadas: []
+2025-10-17 22:19:40,811 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:40,814 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:40,815 [INFO] Opções enviadas: []
+2025-10-17 22:19:40,838 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:40,840 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:40,840 [INFO] Opções enviadas: []
+2025-10-17 22:19:41,386 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:41,387 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:41,388 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:41,389 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:41,389 [INFO] Opções enviadas: []
+2025-10-17 22:19:41,389 [INFO] Opções enviadas: []
+2025-10-17 22:19:41,822 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:41,823 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:41,823 [INFO] Opções enviadas: []
+2025-10-17 22:19:41,842 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:41,844 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:41,844 [INFO] Opções enviadas: []
+2025-10-17 22:19:42,403 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:42,403 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:42,404 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:42,405 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:42,405 [INFO] Opções enviadas: []
+2025-10-17 22:19:42,405 [INFO] Opções enviadas: []
+2025-10-17 22:19:42,837 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:42,838 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:42,839 [INFO] Opções enviadas: []
+2025-10-17 22:19:42,852 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:42,854 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:42,855 [INFO] Opções enviadas: []
+2025-10-17 22:19:43,408 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:43,408 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:43,409 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:43,409 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:43,409 [INFO] Opções enviadas: []
+2025-10-17 22:19:43,410 [INFO] Opções enviadas: []
+2025-10-17 22:19:43,850 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:43,851 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:43,852 [INFO] Opções enviadas: []
+2025-10-17 22:19:43,865 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:43,868 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:43,869 [INFO] Opções enviadas: []
+2025-10-17 22:19:44,424 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:44,424 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:44,425 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:44,426 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:44,426 [INFO] Opções enviadas: []
+2025-10-17 22:19:44,427 [INFO] Opções enviadas: []
+2025-10-17 22:19:44,858 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:44,859 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:44,860 [INFO] Opções enviadas: []
+2025-10-17 22:19:44,875 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:44,876 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:44,877 [INFO] Opções enviadas: []
+2025-10-17 22:19:45,433 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:45,433 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:45,434 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:45,435 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:45,435 [INFO] Opções enviadas: []
+2025-10-17 22:19:45,436 [INFO] Opções enviadas: []
+2025-10-17 22:19:45,868 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:45,869 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:45,870 [INFO] Opções enviadas: []
+2025-10-17 22:19:45,882 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:45,883 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:45,884 [INFO] Opções enviadas: []
+2025-10-17 22:19:46,442 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:46,443 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:46,444 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:46,444 [INFO] Opções enviadas: []
+2025-10-17 22:19:46,445 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:46,445 [INFO] Opções enviadas: []
+2025-10-17 22:19:46,874 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:46,876 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:46,877 [INFO] Opções enviadas: []
+2025-10-17 22:19:46,899 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:46,900 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:46,901 [INFO] Opções enviadas: []
+2025-10-17 22:19:47,446 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:47,447 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:47,447 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:47,448 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:47,448 [INFO] Opções enviadas: []
+2025-10-17 22:19:47,449 [INFO] Opções enviadas: []
+2025-10-17 22:19:47,883 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:47,884 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:47,885 [INFO] Opções enviadas: []
+2025-10-17 22:19:47,914 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:47,916 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:47,917 [INFO] Opções enviadas: []
+2025-10-17 22:19:48,458 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:48,458 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:48,460 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:48,460 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:48,462 [INFO] Opções enviadas: []
+2025-10-17 22:19:48,462 [INFO] Opções enviadas: []
+2025-10-17 22:19:48,889 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:48,890 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:48,891 [INFO] Opções enviadas: []
+2025-10-17 22:19:48,926 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:48,928 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:48,930 [INFO] Opções enviadas: []
+2025-10-17 22:19:49,470 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:49,470 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:49,471 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:49,471 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:49,472 [INFO] Opções enviadas: []
+2025-10-17 22:19:49,473 [INFO] Opções enviadas: []
+2025-10-17 22:19:49,892 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:49,893 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:49,893 [INFO] Opções enviadas: []
+2025-10-17 22:19:49,938 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:49,939 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:49,940 [INFO] Opções enviadas: []
+2025-10-17 22:19:50,482 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:50,483 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:50,484 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:50,484 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:50,485 [INFO] Opções enviadas: []
+2025-10-17 22:19:50,485 [INFO] Opções enviadas: []
+2025-10-17 22:19:50,898 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:50,900 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:50,900 [INFO] Opções enviadas: []
+2025-10-17 22:19:50,947 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:50,948 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:50,948 [INFO] Opções enviadas: []
+2025-10-17 22:19:51,499 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:51,500 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:51,502 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:51,502 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:51,503 [INFO] Opções enviadas: []
+2025-10-17 22:19:51,504 [INFO] Opções enviadas: []
+2025-10-17 22:19:51,903 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:51,906 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:51,907 [INFO] Opções enviadas: []
+2025-10-17 22:19:51,964 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:51,965 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:51,966 [INFO] Opções enviadas: []
+2025-10-17 22:19:52,508 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:52,508 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:52,509 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:52,510 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:52,510 [INFO] Opções enviadas: []
+2025-10-17 22:19:52,511 [INFO] Opções enviadas: []
+2025-10-17 22:19:52,914 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:52,916 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:52,916 [INFO] Opções enviadas: []
+2025-10-17 22:19:52,977 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:52,979 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:52,980 [INFO] Opções enviadas: []
+2025-10-17 22:19:53,514 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:53,515 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:53,516 [INFO] Opções enviadas: []
+2025-10-17 22:19:53,523 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:53,525 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:53,526 [INFO] Opções enviadas: []
+2025-10-17 22:19:53,930 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:53,931 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:53,932 [INFO] Opções enviadas: []
+2025-10-17 22:19:53,992 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:53,993 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:53,995 [INFO] Opções enviadas: []
+2025-10-17 22:19:54,532 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:54,532 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:54,534 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:54,535 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:54,535 [INFO] Opções enviadas: []
+2025-10-17 22:19:54,536 [INFO] Opções enviadas: []
+2025-10-17 22:19:54,941 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:54,942 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:54,943 [INFO] Opções enviadas: []
+2025-10-17 22:19:55,003 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:55,004 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:55,005 [INFO] Opções enviadas: []
+2025-10-17 22:19:55,539 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:55,539 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:55,541 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:55,541 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:55,542 [INFO] Opções enviadas: []
+2025-10-17 22:19:55,543 [INFO] Opções enviadas: []
+2025-10-17 22:19:55,708 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:55,947 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:55,948 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:55,948 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:56,014 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:56,015 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:56,016 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:56,559 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:56,560 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:56,562 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:56,562 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:56,565 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:56,565 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:56,951 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:56,953 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:56,955 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:57,026 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:57,027 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:57,028 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:57,572 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:57,573 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:57,574 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:57,574 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:57,575 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:57,575 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:57,961 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:57,964 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:57,966 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:58,034 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:58,035 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:58,036 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:58,579 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:58,579 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:58,580 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:58,580 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:58,581 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:58,581 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:58,984 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:58,985 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:58,987 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:59,046 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:59,047 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:59,047 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:59,587 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:59,587 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:59,588 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:59,589 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:59,590 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:59,590 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:19:59,995 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:19:59,996 [INFO] Chat solicitado por cliente.
+2025-10-17 22:19:59,997 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:00,050 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:00,051 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:00,052 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:00,603 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:00,603 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:00,605 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:00,605 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:00,607 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:00,607 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:01,009 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:01,010 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:01,010 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:01,057 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:01,058 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:01,059 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:01,614 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:01,614 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:01,615 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:01,615 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:01,616 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:01,616 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:02,019 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:02,020 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:02,020 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:02,066 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:02,066 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:02,067 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:02,622 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:02,622 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:02,624 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:02,624 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:02,626 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:02,626 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:03,030 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:03,031 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:03,032 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:03,634 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:03,635 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:03,635 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:03,636 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:03,636 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:03,637 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:04,043 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:04,045 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:04,046 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:04,642 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:04,643 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:04,644 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:05,055 [INFO] Trecho atual solicitado pelo cliente.
+2025-10-17 22:20:05,056 [INFO] Chat solicitado por cliente.
+2025-10-17 22:20:05,057 [INFO] Opções enviadas: ['Ignorancia é uma virtude', 'Ação Direta e Silenciosa', 'O Chamado à Razão']
+2025-10-17 22:20:11,378 [INFO] Jogador 'teste4' se desconectou.
+2025-10-17 22:20:11,379 [INFO] goodbye ('127.0.0.1', 57596)
+2025-10-17 22:20:22,064 [INFO] Jogador 'teste3' se desconectou.
+2025-10-17 22:20:22,065 [INFO] goodbye ('127.0.0.1', 19321)
+2025-10-17 22:20:22,500 [INFO] Jogador 'teste' se desconectou.
+2025-10-17 22:20:22,500 [INFO] goodbye ('127.0.0.1', 8314)
+2025-10-17 22:20:24,999 [INFO] Jogador 'teste2' se desconectou.
+2025-10-17 22:20:24,999 [INFO] goodbye ('127.0.0.1', 49674)
+2025-10-17 22:21:12,785 [WARNING] keyboard interrupt!
+2025-10-17 22:21:12,785 [INFO] server has terminated
+2025-10-17 22:21:12,785 [INFO] listener closed

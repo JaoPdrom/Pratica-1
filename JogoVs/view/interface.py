@@ -132,19 +132,19 @@ class Jogo:
         self.Label1.configure(text='''Votação''')
 
         self.btnVotOpcao2 = ttk.Button(self.FVotacao)
-        self.btnVotOpcao2.place(relx=0.016, rely=0.327, height=26, width=77)
+        self.btnVotOpcao2.place(relx=0.016, rely=0.327, height=26, width=347)
         self.btnVotOpcao2.configure(takefocus="")
         self.btnVotOpcao2.configure(text='''Opcao 2''')
         self.btnVotOpcao2.configure(compound='left')
 
         self.btnVotOpcao3 = ttk.Button(self.FVotacao)
-        self.btnVotOpcao3.place(relx=0.016, rely=0.532, height=26, width=77)
+        self.btnVotOpcao3.place(relx=0.016, rely=0.532, height=26, width=347)
         self.btnVotOpcao3.configure(takefocus="")
         self.btnVotOpcao3.configure(text='''Opcao 3''')
         self.btnVotOpcao3.configure(compound='left')
 
         self.btnVotOpcao1 = ttk.Button(self.FVotacao)
-        self.btnVotOpcao1.place(relx=0.016, rely=0.121, height=26, width=77)
+        self.btnVotOpcao1.place(relx=0.016, rely=0.121, height=26, width=347)
         self.btnVotOpcao1.configure(takefocus="")
         self.btnVotOpcao1.configure(text='''Opcao 1''')
         self.btnVotOpcao1.configure(compound='left')

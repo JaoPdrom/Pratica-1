@@ -25,8 +25,8 @@ def main(*args):
     _w1 = interface.Jogo(_top1)
     root.mainloop()
 
-if __name__ == '__main__':
-    interface.start_up()
+# if __name__ == '__main__':
+#     interface.start_up()
 
 
 

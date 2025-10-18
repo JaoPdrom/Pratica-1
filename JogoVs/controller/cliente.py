@@ -17,7 +17,10 @@ class ClienteApp:
     def __init__(self):
         # Cria a janela raiz do Tkinter e a esconde imediatamente
         self.root = tk.Tk()
-        self.root.withdraw()  # evita exibir a janela "tk"
+        # self.root.withdraw()  # evita exibir a janela "tk"
+        # self.root.overrideredirect(True) 
+        self.root.withdraw()
+        # self.root.iconify() 
 
         self.conn = None
         self.servico = None
@@ -109,6 +112,7 @@ class ClienteApp:
     def iniciar_jogo(self):
         """Inicializa a tela principal do jogo e configura os componentes."""
         self.janela_jogo = tk.Toplevel(self.root)
+        self.janela_jogo.protocol('WM_DELETE_WINDOW', self.root.destroy)
         self.tela_jogo = TelaJogo(self.janela_jogo)
         self.janela_jogo.title(f"Jogo - {self.jogador}")
 
@@ -139,20 +143,24 @@ class ClienteApp:
 
     def loop_atualizacao(self):
         try:
-            # Se a janela do jogo não existe mais, não agenda novos updates
+            # Se a janela do jogo foi fechada, para o loop
             if not getattr(self, "janela_jogo", None) or not self.janela_jogo.winfo_exists():
                 return
 
-            # Executa as atualizações na própria thread do Tkinter
-            self.atualizar_historia()
-            self.atualizar_chat()
-            self.atualizar_opcoes()
+            # Executa as atualizações apenas se a root ainda existir
+            if getattr(self, "root", None) and self.root.winfo_exists():
+                self.atualizar_historia()
+                self.atualizar_chat()
+                self.atualizar_opcoes()
+
+                # Agenda a próxima execução apenas se o root ainda existir
+                self.root.after(1000, self.loop_atualizacao)
 
         except Exception as e:
-            print("Erro ao atualizar interface:", e)
+            # Se der erro porque a janela fechou, ignora silenciosamente
+            if "invalid command name" not in str(e):
+                print("Erro ao atualizar interface:", e)
 
-        # Agenda a próxima atualização para daqui 1000 ms
-        self.root.after(1000, self.loop_atualizacao)
 
 
     def atualizar_historia(self):
