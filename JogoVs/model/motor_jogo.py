@@ -12,6 +12,9 @@ class MotorJogo:
         self.chat = [] #lista para armazenar as mensagens do chat
         self.jogadores_conectados = {}  #dicionario para armazenar os jogadores únicos
         self.jogo_iniciado = False #flag para verificar se o jogo foi iniciado
+        self.jogadores_prontos = set()  # quem clicou em "Continuar"
+        self.proximo_trecho_pendente = None  # trecho aguardando todos confirmarem
+
 
     def carregar_historia(self, arquivo: str) -> dict:
         """Carrega o arquivo YAML de história a partir de model/dao/."""
@@ -80,7 +83,20 @@ class MotorJogo:
 
             self.jogo_iniciado = True #marca o jogo como iniciado
 
-        return f"🧭 O jogo começou! Trecho inicial: {self.trecho_atual}"
+        # 🆕 Detecta se o trecho inicial não tem opções
+        trecho = self.historia[self.trecho_atual]
+        if not trecho.get("opcoes"):
+            self.proximo_trecho_pendente = trecho.get("proximo")  # se houver “proximo” direto
+            return {
+                "mensagem": f"🧭 O jogo começou! Trecho inicial: {self.trecho_atual}",
+                "sem_opcoes": True
+            }
+
+        return {
+            "mensagem": f"🧭 O jogo começou! Trecho inicial: {self.trecho_atual}",
+            "sem_opcoes": False
+        }
+
 
     def obter_trecho_atual(self, formatado=True):
         if self.trecho_atual is None: #verifica se o jogo foi iniciado
@@ -201,16 +217,18 @@ class MotorJogo:
             proximo_trecho = self.historia[self.trecho_atual]["opcoes"][1]["proximo"]
             vencedor = 2
 
-        # --- Avança a história ---
+        # --- Prepara o próximo trecho (não avança ainda) ---
+        self.proximo_trecho_pendente = proximo_trecho
         resultado = f"Opção {vencedor} venceu com {max(votos1, votos2)} voto(s)!\n"
-        avancar_texto = self.avancar_historia(proximo_trecho)
+        resultado += "⏳ Aguardando todos clicarem em 'Continuar' para avançar..."
 
         # Limpa votos e reseta status dos jogadores
         self.votos.clear()
         for nome in self.jogadores_conectados:
             self.jogadores_conectados[nome]["votou"] = False
 
-        return resultado + avancar_texto
+        return resultado
+
 
     
     def obter_status_votacao(self):
@@ -246,7 +264,26 @@ class MotorJogo:
 
         self.trecho_atual = proximo_trecho
         self.votos.clear() #limpa os votos para o próximo trecho
-        return f"Próximo trecho: {self.trecho_atual}"    
+        return f"Próximo trecho: {self.trecho_atual}"
+
+    def registrar_pronto(self, jogador):
+        self.jogadores_prontos.add(jogador)
+
+        # Quando todos clicarem em continuar
+        if len(self.jogadores_prontos) == len(self.jogadores_conectados):
+            self.jogadores_prontos.clear()
+
+            # Só avança se houver um trecho pendente
+            if self.proximo_trecho_pendente:
+                resultado = self.avancar_historia(self.proximo_trecho_pendente)
+                self.proximo_trecho_pendente = None
+                return {"avancar": True, "mensagem": resultado}
+
+            return {"avancar": True, "mensagem": "Avançando para o próximo trecho..."}
+
+        return {"avancar": False, "mensagem": "Aguardando outros jogadores..."}
+
+
     
     def enviar_mensagem_chat(self, jogador: str, mensagem: str):
         if not mensagem.strip():

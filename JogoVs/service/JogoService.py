@@ -46,6 +46,13 @@ class JogoService(rpyc.Service):
         conn = self.conn  # ✅ agora existe
         conn.jogador = jogador
         log.info(f"Jogador '{jogador}' entrou no jogo.")
+        resposta = motor_global.adicionar_jogador(jogador)
+
+        # 🆕 Se o jogo acabou de começar, verifica se o primeiro trecho não tem opções
+        if isinstance(resposta, dict):
+            return resposta
+        return resposta
+
         return motor_global.adicionar_jogador(jogador)
 
     def exposed_obter_jogadores(self):
@@ -78,6 +85,22 @@ class JogoService(rpyc.Service):
         except Exception as e:
             log.error(f"Falha ao registrar voto de {jogador}: {e}")
             return f"Erro ao registrar voto: {e}"
+
+    def exposed_confirmar_continuar(self, nome_jogador):
+        resposta = motor_global.registrar_pronto(nome_jogador)
+        if resposta["avancar"]:
+            return {"acao": "avancar", "mensagem": resposta["mensagem"], "trecho": motor_global.obter_trecho_atual()}
+        else:
+            return {"acao": "aguardando", "mensagem": resposta["mensagem"]}
+
+
+    def exposed_obter_status_votacao(self):
+        """Permite que os clientes consultem o status da votação."""
+        status = motor_global.obter_status_votacao()
+        log.info(f"Status da votação solicitado: {status}")
+        return status
+
+
 
     # --- Chat ---
     def exposed_enviar_mensagem(self, jogador, mensagem):

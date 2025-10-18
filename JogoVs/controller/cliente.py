@@ -8,7 +8,7 @@ import rpyc
 # Importa telas da view
 from view.prejogo.nome_jogador import Toplevel1 as TelaNome
 from view.prejogo.aguardando_jogadores import Toplevel1 as TelaAguardando
-from view.interface import Toplevel1 as TelaJogo
+from view.interface import Jogo as TelaJogo
 
 
 class ClienteApp:
@@ -105,7 +105,9 @@ class ClienteApp:
     # ========================
     # Tela do Jogo Principal
     # ========================
+
     def iniciar_jogo(self):
+        """Inicializa a tela principal do jogo e configura os componentes."""
         self.janela_jogo = tk.Toplevel(self.root)
         self.tela_jogo = TelaJogo(self.janela_jogo)
         self.janela_jogo.title(f"Jogo - {self.jogador}")
@@ -115,42 +117,66 @@ class ClienteApp:
         self.tela_jogo.btnVotOpcao1.config(command=lambda: self.votar(1))
         self.tela_jogo.btnVotOpcao2.config(command=lambda: self.votar(2))
         self.tela_jogo.btnVotOpcao3.config(command=lambda: self.votar(3))
-        self.tela_jogo.btnVotOpcao4.config(command=lambda: self.votar(4))
+        self.tela_jogo.btnContinuar.config(command=self.on_continuar)
 
-        # Thread de atualização da interface
-        threading.Thread(target=self.loop_atualizacao, daemon=True).start()
+        # 🧠 Verifica se o primeiro trecho tem opções disponíveis
+        try:
+            opcoes = self.servico.obter_opcoes()
+            if not opcoes:
+                # Nenhuma opção: é introdução → habilita botão Continuar
+                self.tela_jogo.btnContinuar.config(state="normal")
+                self.mostrar_status_votacao("📖 Introdução carregada — clique em 'Continuar' para começar.")
+            else:
+                # Há opções: desabilita até o fim da votação
+                self.tela_jogo.btnContinuar.config(state="disabled")
+        except Exception as e:
+            print(f"Erro ao verificar opções iniciais: {e}")
+            self.tela_jogo.btnContinuar.config(state="disabled")
+
+        # Inicializa a primeira atualização da interface
+        self.loop_atualizacao()  # As próximas execuções serão agendadas por after()
+
 
     def loop_atualizacao(self):
-        while True:
-            try:
-                self.atualizar_historia()
-                self.atualizar_chat()
-                self.atualizar_opcoes()
-            except Exception as e:
-                print("Erro ao atualizar interface:", e)
-            time.sleep(1)
+        try:
+            # Se a janela do jogo não existe mais, não agenda novos updates
+            if not getattr(self, "janela_jogo", None) or not self.janela_jogo.winfo_exists():
+                return
+
+            # Executa as atualizações na própria thread do Tkinter
+            self.atualizar_historia()
+            self.atualizar_chat()
+            self.atualizar_opcoes()
+
+        except Exception as e:
+            print("Erro ao atualizar interface:", e)
+
+        # Agenda a próxima atualização para daqui 1000 ms
+        self.root.after(1000, self.loop_atualizacao)
+
 
     def atualizar_historia(self):
         trecho = self.servico.obter_trecho()
-        self.tela_jogo.Scrolledtext1.config(state="normal")
-        self.tela_jogo.Scrolledtext1.delete("1.0", tk.END)
-        self.tela_jogo.Scrolledtext1.insert(tk.END, trecho)
-        self.tela_jogo.Scrolledtext1.config(state="disabled")
+        self.tela_jogo.STHistoria.config(state="normal")
+        self.tela_jogo.STHistoria.delete("1.0", tk.END)
+        self.tela_jogo.STHistoria.insert(tk.END, trecho)
+        self.tela_jogo.STHistoria.config(state="disabled")
+
 
     def atualizar_chat(self):
         chat = self.servico.obter_chat()
-        self.tela_jogo.Scrolledtext2.config(state="normal")
-        self.tela_jogo.Scrolledtext2.delete("1.0", tk.END)
-        self.tela_jogo.Scrolledtext2.insert(tk.END, chat)
-        self.tela_jogo.Scrolledtext2.config(state="disabled")
+        self.tela_jogo.STChat.config(state="normal")
+        self.tela_jogo.STChat.delete("1.0", tk.END)
+        self.tela_jogo.STChat.insert(tk.END, chat)
+        self.tela_jogo.STChat.config(state="disabled")
+
 
     def atualizar_opcoes(self):
         opcoes = self.servico.obter_opcoes()
         botoes = [
             self.tela_jogo.btnVotOpcao1,
             self.tela_jogo.btnVotOpcao2,
-            self.tela_jogo.btnVotOpcao3,
-            self.tela_jogo.btnVotOpcao4
+            self.tela_jogo.btnVotOpcao3
         ]
 
         for i, botao in enumerate(botoes, start=1):
@@ -160,11 +186,53 @@ class ClienteApp:
                 botao.config(text=f"Opção {i}", state="disabled")
 
     def votar(self, opcao):
+        """Envia o voto do jogador e mostra o progresso na área de status."""
         try:
             resultado = self.servico.registrar_voto(self.jogador, str(opcao))
-            messagebox.showinfo("Voto", resultado)
+            self.mostrar_status_votacao(resultado)
+
+            # 🔹 Se o resultado indicar que todos já votaram, habilita o botão Continuar
+            if (
+                "venceu" in resultado
+                or "Aguardando todos clicarem" in resultado
+                or "Todos os jogadores já votaram" in resultado
+            ):
+                self.tela_jogo.btnContinuar.config(state="normal")
+
         except Exception as e:
-            messagebox.showerror("Erro", f"Não foi possível votar: {e}")
+            self.mostrar_status_votacao(f"❌ Erro ao votar: {e}")
+
+
+    def on_continuar(self):
+        """Confirma que o jogador está pronto para avançar."""
+        try:
+            resposta = self.servico.confirmar_continuar(self.jogador)
+            self.mostrar_status_votacao(resposta["mensagem"])
+
+            if resposta["acao"] == "avancar":
+                # 🔹 Limpa o status de votação anterior
+                self.tela_jogo.STStatusVotacao.config(state="normal")
+                self.tela_jogo.STStatusVotacao.delete("1.0", tk.END)
+                self.tela_jogo.STStatusVotacao.config(state="disabled")
+
+                # 🔹 Atualiza o texto da história
+                self.atualizar_historia()
+
+                # 🔹 Desativa o botão até a próxima votação
+                self.tela_jogo.btnContinuar.config(state="disabled")
+
+        except Exception as e:
+            self.mostrar_status_votacao(f"❌ Erro ao continuar: {e}")
+
+
+
+    def mostrar_status_votacao(self, msg):
+        """Adiciona mensagens na área de status da votação."""
+        self.tela_jogo.STStatusVotacao.config(state="normal")
+        self.tela_jogo.STStatusVotacao.insert(tk.END, msg + "\n")
+        self.tela_jogo.STStatusVotacao.see(tk.END)
+        self.tela_jogo.STStatusVotacao.config(state="disabled")
+
 
     def enviar_chat(self):
         msg = self.tela_jogo.TEntryChat.get().strip()
@@ -175,3 +243,4 @@ class ClienteApp:
             self.tela_jogo.TEntryChat.delete(0, tk.END)
         except Exception as e:
             messagebox.showerror("Erro", f"Não foi possível enviar mensagem: {e}")
+
