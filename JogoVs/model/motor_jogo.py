@@ -99,45 +99,58 @@ class MotorJogo:
 
 
     def obter_trecho_atual(self, formatado=True):
-        if self.trecho_atual is None: #verifica se o jogo foi iniciado
+        """Retorna o texto formatado do trecho atual da história."""
+        if self.trecho_atual is None:  # verifica se o jogo foi iniciado
             return "O jogo não foi iniciado."
         
-        trecho = self.historia[self.trecho_atual] #pega o trecho atual da historia
-        
-        #define quais opções mostrar (todas ou só as empatadas)
-        if hasattr(self, "opcoes_empate") and self.opcoes_empate: #verifica se tem empate
-            opcoes_exibir = [] 
-            for indice in self.opcoes_empate: #reinicia a votacao mostrando apenas as opcoes empatadas
+        trecho = self.historia[self.trecho_atual]  # pega o trecho atual da história
+
+        # Define quais opções mostrar (todas ou só as empatadas)
+        if hasattr(self, "opcoes_empate") and self.opcoes_empate:  # verifica se tem empate
+            opcoes_exibir = []
+            for indice in self.opcoes_empate:  # reinicia a votação mostrando apenas as opções empatadas
                 opcoes_exibir.append(trecho["opcoes"][indice - 1])
             modo_empate = True
         else:
-            opcoes_exibir = trecho.get("opcoes", []) #mostra todas as opcoes normais sem empate
+            opcoes_exibir = trecho.get("opcoes", [])  # mostra todas as opções normais sem empate
             modo_empate = False
-            
+
+            # Se o chamador pediu formato puro (para envio via rede, por exemplo)
             if not formatado:
                 return {
                     "texto": trecho["texto"],
                     "opcoes": opcoes_exibir
                 }
-        
-        texto = f"\n🧭 Trecho atual: {self.trecho_atual}\n"
-        texto += f"{trecho['texto']}\n"
 
-        if not opcoes_exibir: #finaliza a historia por nao ter opcoes
+        # 🧭 Cabeçalho do trecho
+        texto = f"\n🧭 Trecho atual: {self.trecho_atual}\n\n"
+
+        # 📖 Formata o texto principal mantendo quebras de linha
+        texto_bruto = trecho.get("texto", "")
+        if isinstance(texto_bruto, str):
+            # Garante que \n do YAML sejam mantidos e remove espaços extras
+            texto += texto_bruto.strip() + "\n"
+        elif isinstance(texto_bruto, list):
+            # Caso o texto venha em lista de parágrafos (formato alternativo)
+            texto += "\n\n".join(p.strip() for p in texto_bruto if p.strip()) + "\n"
+
+        # 🏁 Caso não existam opções, considera fim da história
+        if not opcoes_exibir:
             texto += "\nFim da história\n"
             return texto
 
-        if modo_empate: #se estiver em modo empate, avisa o jogador
+        # ⚖️ Caso de empate
+        if modo_empate:
             texto += "\nEmpate detectado! Vote novamente entre as opções abaixo:\n"
         else:
             texto += "\nOpções disponíveis:\n"
 
-        contador = 1
-        for opcao in opcoes_exibir:
-            texto += f"  {contador}. {opcao['texto']}\n"
-            contador += 1
+        # 🗳️ Lista as opções numeradas
+        for i, opcao in enumerate(opcoes_exibir, start=1):
+            texto += f"  {i}. {opcao['texto']}\n"
 
         return texto
+
     
     def registrar_voto(self, jogador: str, opcao: int):
         """Registra o voto do jogador e verifica se todos já votaram."""
