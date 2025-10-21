@@ -413,19 +413,298 @@ silencio_culpado:
 entregar_la:
   texto:
       "
-        Você se levanta e aponta para Mahlanda. 'Ela está aqui! Ela é a Preservadora!
+      Você se levanta e aponta para Mahlanda. 'Ela está aqui! Ela é a Preservadora!
       Cumpram a palavra do Rei Kalak!'
+
       A ação é tão repentina que paralisa a todos. Os guardas avançam e agarram Mahlanda,
       que lança um olhar de puro ódio em sua direção. O Templário Mundar se aproxima de
       você com um sorriso estreito.
+
       Templário Mundar: 'Um cidadão... 'leal'.' Ele pega a moeda de prata, mas em vez de
       entregá-la, a faz dançar entre os dedos. 'Mas eu me pergunto... se você é tão rápido
       para traçar uma estranha, o que faria a um companheiro? Kalak precisa de
       trabalhadores obedientes, não de cobras oportunistas. É muito mais seguro ter você
       sob vigilância. Peguem este também!'
+
       Antes que você possa protestar, os guardas o agarram. Seus companheiros de grupo
       olham para você com desprezo. O traidor foi traído pela própria natureza.
       "
   opcoes:
     - texto: 
       proximo:
+
+
+senzala:
+  texto:
+      "
+      Introdução:
+
+      A liberdade é uma memória distante, apagada pelo calor implacável do sol de Tyr. O
+      processo foi metódico e desumanizante: suas roupas, queimadas; seus corpos,
+      raspados e reduzidos a meras sombras; sua identidade, substituída por uma tanga
+      suja, um cobertor esfarrapado e um cantil vazio que se tornou o objeto mais
+      importante de sua existência. Agora, você é apenas mais um corpo no vasto e
+      poeirento canteiro de obras do Zigurate, um número em um grupo de trabalho,
+      condenado a carregar, cortar e suar sob o chicote de um supervisor que é tão escravo
+      quanto você, mas que chicoteia com o vigor desesperado de quem luta para não cair
+      novamente no abismo.
+
+      Os dias se arrastam em um ciclo de agonia. Antes do amanhecer, a luta diária por um
+      gole de água começa. Aqueles que falham, definham. Sob um sol que derrete a
+      vontade, você carrega pedras, mistura lama ou puxa cordas sob a ameaça constante
+      do açoite. A morte é uma sombra familiar—um escravo que cai de exaustão, um
+      gladiador em potencial levado para os poços, um corpo varrido pela equipe de limpeza
+      ao anoitecer. Quando o sol finalmente se põe, uma tigela de mingau podre é seu
+      prêmio por ter sobrevivido mais um dia, antes que você caia no sono, ao relento,
+      sabendo que o amanhecer trará a mesma provação. A única certeza é que o Zigurate
+      deve crescer, não importa quantos de vocês sejam consumidos por ele.
+      "
+  proximo: "provocacao_canteiro_obras"
+
+provocacao_canteiro_obras:
+  texto:
+      "
+      Um estranho estrondo se levanta sobre os guinchos dos supervisores e tu levantas a
+      tua fronte queimada de sol para ver o distúrbio. Uma multidão de escravos
+      rapidamente se reúne ao redor do som, se acotovelando. Conforme tu dobras o teu
+      pescoço para conseguir enxergar, um uivo estridente atinge os escravos amontoados,
+      que se espalham procurando segurança. No centro da roda, um meio-gigante de
+      postura relaxada rodopia, golpeando violentamente com enormes mãos os ágeis elfos
+      que o atormentam.
+
+      Seis elfos provocam um meio-gigante estabanado chamado Urrgos. Eles usam sua
+      velocidade e agilidade para escapar de seus punhos, gritando cruéis provocações que
+      satirizam sua feiúra, lentidão e burrice. Frustrado, Urrgos não consegue igualar os
+      insultos verbais e reage com violência bruta, golpeando o ar e jogando punhados de
+      areia.
+
+      Diálogo dos Elfos:
+      “Ei, Urrgos – você pode fugir ser eu!” [Coro de “não, eu – não, eu” Dos outros
+      elfos.]
+
+      “Saquei! Você está imitando um kank, certo?”
+
+      “Ele é uma pedra! Não – pedras se movem mais rápido que ele.”
+
+      Diálogo de Urrgos:
+      “Você vai embora! Você deixa Urrgos em paz!”
+
+      “Urrgos não querer ser como você, pequeno inseto.”
+
+      A menos que algo seja feito, os elfos retornarão para atormentar Urrgos e ele parece
+      que está à beira de um limite para que sua fúria destruidora seja liberta.
+
+      Opções:
+      1. Intromerter-se:
+      Avançar e coloque-se entre os elfos e Urrgos. Enfrentando os líderes com uma postura
+      agressiva, mostrando que você não tem medo de lutar.
+
+      2. Acalmar Urggos:
+      Aproxime-se de Urrgos com calma e tente conversar com ele, mostrando uma forma
+      melhor de lidar com as provocações. Torne-se seu modelo.
+
+      3. Ignorar e Observar:
+      Mantenha-se afastado e apenas observe o desenrolar da situação. Não é seu
+      problema.
+
+      "
+  opcoes:
+    - texto: "Intromerter-se"
+      proximo: "intrometer_se"
+    - texto: "Acalmar Urggos"
+      proximo: "acalmar_urggos"
+    - texto: "Ignorar e Observar"
+      proximo: "ignorar_observar"
+
+intrometer_se:
+  texto:
+      "
+      Você avança com passo firme, colocando-se diante do elfo mais provocador. Seu olhar
+      é uma promessa de violência.
+
+      'O próximo que insultá-lo, vai responder para mim.''
+
+      Os elfos param, surpresos pela audição. Eles avaliam você e o grupo ao seu redor. O
+      líder cospe no chão, mas recua.
+
+      Elfo Líder: 'Tudo bem, tudo bem. Guardamos a diversão para depois. O novo amigo do
+      Urrgos não tem senso de humor.'
+
+      Eles se dispersam, lançando olhares sujos, mas Urrgos está a salvo por agora. Ele olha
+      para você com uma admiração profunda e silenciosa.
+      "
+  opcoes:
+    - texto: 
+      proximo:
+
+acalmar_urggos:
+  texto:
+      "
+      Você se aproxima calmamente, ignorando os elfos, e fala diretamente com Urrgos.
+
+      'Ignora eles, Urrgos. Eles são como moscas. Você não debate com mosca, apenas
+      a espanta. Fique comigo.'
+
+      Urrgos para de se debater. Sua expressão de raiva se transforma em confusão e depois
+      em um lampejo de compreensão. Os elfos, sem graça, param com as provocações.
+
+      Urrgos: 'Urrgos... entender. Ficar com você. Ser como você.'
+      "
+  opcoes:
+    - texto: 
+      proximo:
+
+ignorar_observar:
+  texto:
+      "
+      Você cruza os braços e decide não se envolver. É melhor não chamar atenção.
+
+      Os supervisores chegam com seus chicotes, dispersando a todos com ameaças. Nos
+      dias seguintes, a cena se repete. As provocações dos elfos ficam cada vez mais cruéis.
+      Urrgos, sem um modelo para seguir, fica mais frustrado.
+
+      No terceiro dia, um grito gutural corta o ar. Urrgos, em fúria assassina, esmaga o crânio
+      de dois elfos antes que os guardas apareçam. Uma chuva de flechas e lanças o abate
+      enquanto ele rugia de dor e raiva. Descontrolado ele começa a destruir tudo em sua
+      volta, agora se parecendo muito mais com uma fera do deserto ele aniquila todos em
+      seu caminho e para seu azar você era um de que estava e é esmagado pelos punhos de
+      Urrgos. Após diversas mortes o guardas matam Urrgos, contudo sem atendimentos
+      médicos descentes e pelo trabalho forçado mesmo com tais machucados, você morre
+      por conta de uma infecção.
+      "
+  opcoes:
+    - texto: 
+      proximo:
+
+# Ódio no Pátio das Senzalas
+odio_patio_senzalas:
+  texto:
+      "
+      Com os dedos, você raspa o final do seu mingau oleoso e com cara de lama. De
+      repente, uma enxurrada de cobertores imundos cobre você, pontuada por insultos
+      mordazes. Quase imediatamente, um par de corpos acerta o seu pequeno grupo.
+
+      Os corpos pertencem a Lissan e Kania, duas gladiadoras enviadas às senzalas como
+      punição. A luta é mortal desde o início. Lissan, defensiva, bloqueia os golpes com seu
+      bordão, enquanto Kania ataca com fúria usando uma bola de espinhos. Através dos
+      gritos, fica claro que brigam por um homem chamado Tachandral. Kania odeia Lissan
+      porque esta foi escolhida para ser a parceira de luta de Tachandral.
+
+      Lissan tenta explicar, perdendo chances de atacar sério, mas Kania só quer sangue.
+      Em um movimento brutal, Kania nocauteia Lissan e pula em suas costas, enrolando a
+      corda de sua arma no pescoço da rival e começando a estrangulá-la. Os guardas não
+      intervêm, apenas apostam no resultado.
+
+      Diálogo:
+      Kania:'Sou mais forte, mais rápida e mais durona que você! Eu devia ser a
+      parceira dele!'
+
+      Lissan: (Engasgando) 'O treinador me escolheu porque nossas habilidades se
+      complementam!'
+
+      Kania:'Quando você estiver morta, eu lutarei do lado de Tachandra!'
+      Lissan está morrendo. O que você faz?
+
+      Opções: 
+      1. Intervenção Pacífica:
+      Tente separar as duas e acalmar Kania, argumentando que matar Lissan só a afastará
+      de Tachandral para sempre, tornando-a uma assassina aos olhos dele.
+      
+      2. Ação Direta:
+      Aja rápido! Isso passa em sua mente, então para separar as duas à força você se
+      intromete, puxando Kania para longe de Lissan antes que seja tarde demais.
+      
+      3. Não se Envolver:
+      Esta não é sua briga. Gladiadoras são problemas que se resolvem sozinhos. Deixe que
+      o destino decida
+      "
+  opcoes:
+    - texto: "Intervenção Pacífica"
+      proximo: "internvencao_pacifica"
+    - texto: "Ação Direta"
+      proximo: "acao_direta"
+    - texto: "Não se Envolver"
+      proximo: "nao_se_envolver"
+
+intervir:
+  texto:
+    "
+    Você se aproxima com as mãos abertas, sua voz é calma, mas firme, dirigindo-se a
+    Kania.
+
+    'Matá-la só vai manchar seu nome, Kania! Tachandral nunca olhará para uma
+    assassina. Isso é o oposto de ganhar seu respeito!'
+
+    Kania nem sequer olha para você. Seus olhos, vidrados em ódio, permanecem fixos em
+    Lissan. Sua voz sai como um rosnado baixo e distorcido.
+
+    Kania:'Respeito? Eu quero é o LUGAR DELA!'
+
+    Ignorando completamente seus argumentos, ela dá um puxão final e brutal na corda.
+    Um estalido seco e horrível ecoa no pátio. O corpo de Lissan vai imediatamente ao
+    relaxamento da morte.
+
+    Antes que qualquer um possa reagir, Kania se levanta, com a fúria agora redirecionada
+    e ampliada pela interrupção. Ela desembainha uma adaga curta que estava em sua
+    cintura.
+
+    Kania:'Vocês queriam salvá-la? Então podem acompanhá-la!'
+
+    Ela avança sobre o grupo num frenesi assassino, atacando cegamente. Os guardas, em
+    vez de intervir, recuam e começam a fazer novas apostas, gritando: 'A louca vai limpar
+    a senzala para nós! Apostem em quantos ela leva!'
+
+    Com a negligência dos guardas e o armamento de Kania, não oferecem chance contra
+    alguém totalmente treinado a matar os outros.
+
+    A bondade é algo formidável e raro em Athas, mas sem força isso apenas se torna uma
+    ato de covardia.
+    "
+  opcoes:
+    - texto: 
+      proximo:
+
+acao_direta:
+  texto:
+      "
+    Ação Direta
+    Sem hesitar, você avança. Enquanto um companheiro distrai Kania, você a agarra
+    pelos ombros e a arranca de cima de Lissan com força. As duas rolam para longe no
+    chão de terra.
+
+    Kania solta um urro de raiva pura ao ser interrompida. Ela se levanta rapidamente,
+    agora com a bola de espinhos girando em sua direção.
+
+    Kania:'Você vai morrer no lugar dela, verme!'
+
+    Uma luta rápida e brutal se inicia. Kania é uma oponente formidável, mas agir em grupo
+    dá a vocês a vantagem. Após alguns golpes trocados, os guardas, vendo que a briga
+    saiu do controle, finalmente intervêm com chicotes, separando todos.
+
+    Lissan agradece e diz que irá retribuir o favor de salvá-la.
+    "
+  opcoes:
+    - texto: 
+      proximo:
+
+nao_se_envolver:
+  texto:
+      "
+      Você troca um olhar com seus companheiros e todos concordam silenciosamente:
+      não vale o risco. Vocês se afastam, virando as costas para a cena.
+
+      Os sons de luta cessam, substituídos por um silêncio súbito e sinistro. Quando você
+      olha para trás, Kania está de pé, ofegante, o corpo inerte de Lissan a seus pés. Ela
+      desenrola a corda do pescoço da rival com um chute de desdém.
+
+      Os guardas riem e trocam moedas. Kania cospe no chão e caminha para longe, seu
+      ódio momentaneamente saciado. Lissan é apenas mais um corpo a ser arrastado pela
+      equipe de limpeza ao anoitecer.
+      "
+  opcoes:
+    - texto: 
+      proximo:
+
+# A Proposta nas Sombras
+
+proposta_nas_sombras:
